@@ -1,0 +1,5613 @@
+# depslib dependency file v1.0
+1622856448 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\main.cpp
+	<stdlib.h>
+	<time.h>
+	"Game.h"
+
+1622926122 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623283035 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1623282833 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623367091 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\game.cpp
+	"../include/Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Meteor.h"
+
+1623368248 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\meteor.cpp
+	"../include/Meteor.h"
+
+1622849990 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\object.cpp
+	"Object.h"
+
+1623117991 source:c:\users\user\desktop\facultad\laboratorio2\videojuego\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1622925883 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1622857005 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\object.h
+	<SFML/Graphics/RenderWindow.hpp>
+
+1623285575 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1623279596 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\defender_r.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Defender_R.h"
+
+1622856524 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+
+1623366433 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\game.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	<vector>
+	<string>
+
+1623208483 c:\users\user\desktop\facultad\laboratorio2\videojuego\include\defender_l.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Defender_L.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\vector3.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\system\threadlocalptr.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\videojuego\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1622856448 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\main.cpp
+	<stdlib.h>
+	<time.h>
+	"Game.h"
+
+1622926122 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1622925883 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1622857005 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\object.h
+	<SFML/Graphics/RenderWindow.hpp>
+
+1623285575 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+
+1623208483 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\defender_l.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Defender_L.h"
+
+1623279596 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\defender_r.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Defender_R.h"
+
+1622856524 c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+
+1623283035 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1623282833 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623368248 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\src\meteor.cpp
+	"../include/Meteor.h"
+
+1623117991 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\spaceship\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623973437 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\main.cpp
+	<stdlib.h>
+	<time.h>
+	"include/Game.h"
+
+1624583312 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1624583112 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1623983024 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\object.h
+	<SFML/Graphics.hpp>
+
+1624584594 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1623983828 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1623983833 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1623983838 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1623984823 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1623984875 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1624584593 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\game.cpp
+	"../include/Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	"../include/Meteor.h"
+
+1624121312 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\game.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\spaceship\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1624583312 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\meteor.cpp
+	"../include/Meteor.h"
+
+1624583312 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623973437 source:c:\users\user\desktop\spaceship\main.cpp
+	<stdlib.h>
+	<time.h>
+	"include/Game.h"
+
+1624583312 source:c:\users\user\desktop\spaceship\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1624583112 c:\users\user\desktop\spaceship\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\spaceship\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\spaceship\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\spaceship\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\spaceship\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1623983024 c:\users\user\desktop\spaceship\include\object.h
+	<SFML/Graphics.hpp>
+
+1623985436 c:\users\user\desktop\spaceship\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1623983828 c:\users\user\desktop\spaceship\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1623983833 c:\users\user\desktop\spaceship\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1623983838 c:\users\user\desktop\spaceship\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1623984823 source:c:\users\user\desktop\spaceship\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1623984875 source:c:\users\user\desktop\spaceship\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1624574816 source:c:\users\user\desktop\spaceship\src\game.cpp
+	"../include/Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	"../include/Meteor.h"
+
+1624121312 c:\users\user\desktop\spaceship\include\game.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\spaceship\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1624583312 source:c:\users\user\desktop\spaceship\src\meteor.cpp
+	"../include/Meteor.h"
+
+1624583312 source:c:\users\user\desktop\spaceship\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1623985714 c:\users\user\desktop\spaceship\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1623980835 source:c:\users\user\desktop\spaceship\src\collisionable.cpp
+	"Collisionable.h"
+
+1623985714 c:\users\user\desktop\facultad\laboratorio2\spaceship\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1623980835 source:c:\users\user\desktop\facultad\laboratorio2\spaceship\src\collisionable.cpp
+	"Collisionable.h"
+
+1625148470 source:c:\users\usuario\documents\flipper\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625009884 c:\users\usuario\documents\flipper\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635490 c:\users\usuario\documents\flipper\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635490 c:\users\usuario\documents\flipper\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\utf.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\string.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\thread.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\vector2.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\system\vector3.inl
+
+1539635490 c:\users\usuario\documents\flipper\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635490 c:\users\usuario\documents\flipper\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\window\windowstyle.hpp
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\rect.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\glsl.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1625009884 c:\users\usuario\documents\flipper\include\object.h
+	<SFML/Graphics.hpp>
+
+1625009884 c:\users\usuario\documents\flipper\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625009884 c:\users\usuario\documents\flipper\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1625009884 c:\users\usuario\documents\flipper\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1625009884 c:\users\usuario\documents\flipper\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1625009884 c:\users\usuario\documents\flipper\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625148470 source:c:\users\usuario\documents\flipper\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1625148470 source:c:\users\usuario\documents\flipper\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625148470 source:c:\users\usuario\documents\flipper\src\meteor.cpp
+	"../include/Meteor.h"
+
+1625148470 source:c:\users\usuario\documents\flipper\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625948772 source:c:\users\usuario\documents\flipper\src\endgame.cpp
+	"EndGame.h"
+	<iostream>
+	"Game.h"
+	"Menu.h"
+	"PlayScene.h"
+
+1625949037 c:\users\usuario\documents\flipper\include\endgame.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./BaseScene.h"
+	"./Global.h"
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812020 c:\users\usuario\documents\flipper\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1625148470 source:c:\users\usuario\documents\flipper\src\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1625148470 c:\users\usuario\documents\flipper\include\game.h
+	"BaseScene.h"
+
+1625148470 c:\users\usuario\documents\flipper\include\basescene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Object.h"
+	<vector>
+
+1625949005 source:c:\users\usuario\documents\flipper\main.cpp
+	<stdlib.h>
+	<time.h>
+	"BaseScene.h"
+	"Menu.h"
+	"Game.h"
+	"EndGame.h"
+
+1625949037 c:\users\usuario\documents\flipper\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./Meteor.h"
+	"./BaseScene.h"
+	"./Global.h"
+
+1625148470 source:c:\users\usuario\documents\flipper\src\basescene.cpp
+	"BaseScene.h"
+	<string>
+	<iostream>
+	<sstream>
+
+1625948772 source:c:\users\usuario\documents\flipper\src\menu.cpp
+	"Menu.h"
+	"Global.h"
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"Game.h"
+	"PlayScene.h"
+
+1625948841 c:\users\usuario\documents\flipper\include\playscene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Global.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"BaseScene.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1625948841 source:c:\users\usuario\documents\flipper\src\playscene.cpp
+	"../include/PlayScene.h"
+	"Global.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Meteor.h"
+
+1626135556 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\main.cpp
+	<stdlib.h>
+	<time.h>
+	"BaseScene.h"
+	"Menu.h"
+	"Game.h"
+	"EndGame.h"
+
+1626913734 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\basescene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Object.h"
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\project\flipper\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\object.h
+	<SFML/Graphics.hpp>
+
+1626910962 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./Meteor.h"
+	"./BaseScene.h"
+	"./Global.h"
+
+1626911008 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625103626 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\game.h
+	"BaseScene.h"
+
+1625098119 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625102625 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\basescene.cpp
+	"BaseScene.h"
+	<string>
+	<iostream>
+	<sstream>
+
+1625096381 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1625096466 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1626917261 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\endgame.cpp
+	"EndGame.h"
+	<iostream>
+	"Game.h"
+	"Menu.h"
+	"Global.h"
+	"PlayScene.h"
+
+1626913796 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\endgame.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./BaseScene.h"
+	"./Global.h"
+
+1625104776 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1626916864 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\menu.cpp
+	"Menu.h"
+	"Global.h"
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"Game.h"
+	"PlayScene.h"
+
+1626915353 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\playscene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Global.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"BaseScene.h"
+	"EndGame.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1626910778 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\meteor.cpp
+	"../include/Meteor.h"
+
+1625096322 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1626917272 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\playscene.cpp
+	"../include/PlayScene.h"
+	"Global.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Meteor.h"
+
+1625099806 source:c:\users\user\desktop\nueva carpeta\main.cpp
+	<stdlib.h>
+	<time.h>
+	"BaseScene.h"
+	"Menu.h"
+	"Game.h"
+
+1625101130 c:\users\user\desktop\nueva carpeta\include\basescene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Object.h"
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\nueva carpeta\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\object.h
+	<SFML/Graphics.hpp>
+
+1625111001 c:\users\user\desktop\nueva carpeta\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./Meteor.h"
+	"./BaseScene.h"
+	"./Global.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625103626 c:\users\user\desktop\nueva carpeta\include\game.h
+	"BaseScene.h"
+
+1625098119 source:c:\users\user\desktop\nueva carpeta\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625102625 source:c:\users\user\desktop\nueva carpeta\src\basescene.cpp
+	"BaseScene.h"
+	<string>
+	<iostream>
+	<sstream>
+
+1625096381 source:c:\users\user\desktop\nueva carpeta\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1625096466 source:c:\users\user\desktop\nueva carpeta\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625094412 source:c:\users\user\desktop\nueva carpeta\src\endgame.cpp
+	"EndGame.h"
+
+1625094412 c:\users\user\desktop\nueva carpeta\include\endgame.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+
+1625104776 source:c:\users\user\desktop\nueva carpeta\src\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1625111265 source:c:\users\user\desktop\nueva carpeta\src\menu.cpp
+	"Menu.h"
+	"Global.h"
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"Game.h"
+	"Global.h"
+	"PlayScene.h"
+
+1625111023 c:\users\user\desktop\nueva carpeta\include\playscene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Global.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"BaseScene.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1625096697 source:c:\users\user\desktop\nueva carpeta\src\meteor.cpp
+	"../include/Meteor.h"
+
+1625111532 source:c:\users\user\desktop\nueva carpeta\src\playscene.cpp
+	"../include/PlayScene.h"
+	"Global.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Meteor.h"
+
+1625096322 source:c:\users\user\desktop\nueva carpeta\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625111354 c:\users\user\desktop\nueva carpeta\include\global.h
+
+1625110908 source:c:\users\user\desktop\nueva carpeta\src\global.cpp
+	"Global.h"
+
+1625148470 c:\users\usuario\documents\flipper\include\global.h
+
+1625148470 source:c:\users\usuario\documents\flipper\src\global.cpp
+	"Global.h"
+
+1626916836 c:\users\user\desktop\facultad\laboratorio2\project\flipper\include\global.h
+
+1626916836 source:c:\users\user\desktop\facultad\laboratorio2\project\flipper\src\global.cpp
+	<iostream>
+	"Global.h"
+
+1626135556 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\main.cpp
+	<stdlib.h>
+	<time.h>
+	"BaseScene.h"
+	"Menu.h"
+	"Game.h"
+	"EndGame.h"
+
+1626913734 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\basescene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Object.h"
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\object.h
+	<SFML/Graphics.hpp>
+
+1626910962 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./Meteor.h"
+	"./BaseScene.h"
+	"./Global.h"
+
+1626911008 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\meteor.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Object.h"
+	"Defender_L.h"
+	"Defender_R.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\defender_l.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_L.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\defender_r.h
+	<SFML/Graphics.hpp>
+	"Object.h"
+	"Defender_R.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\barrel.h
+	<SFML/Graphics.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"../include/Object.h"
+	"../include/Meteor.h"
+	"Collisionable.h"
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\spaceship.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Meteor.h"
+	"Collisionable.h"
+
+1626916836 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\global.h
+
+1625103626 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\game.h
+	"BaseScene.h"
+
+1626913796 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\endgame.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./BaseScene.h"
+	"./Global.h"
+
+1625098119 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\barrel.cpp
+	"../include/Barrel.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625102625 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\basescene.cpp
+	"BaseScene.h"
+	<string>
+	<iostream>
+	<sstream>
+
+1625096381 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\defender_l.cpp
+	"../include/Defender_L.h"
+	<SFML/Window/Keyboard.hpp>
+	"math.h"
+
+1625096466 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\defender_r.cpp
+	"../include/Defender_R.h"
+	<SFML/Window/Keyboard.hpp>
+
+1626917261 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\endgame.cpp
+	"EndGame.h"
+	<iostream>
+	"Game.h"
+	"Menu.h"
+	"Global.h"
+	"PlayScene.h"
+
+1626915353 c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\include\playscene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Meteor.h"
+	"Defender_L.h"
+	"Global.h"
+	"Defender_R.h"
+	"Collisionable.h"
+	"Barrel.h"
+	"Spaceship.h"
+	"BaseScene.h"
+	"EndGame.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1625104776 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1626916836 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\global.cpp
+	<iostream>
+	"Global.h"
+
+1626916864 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\menu.cpp
+	"Menu.h"
+	"Global.h"
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"Game.h"
+	"PlayScene.h"
+
+1626910778 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\meteor.cpp
+	"../include/Meteor.h"
+
+1626917272 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\playscene.cpp
+	"../include/PlayScene.h"
+	"Global.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Meteor.h"
+
+1625096322 source:c:\users\user\desktop\facultad\laboratorio2\proyecto\game_flipper\src\spaceship.cpp
+	"../include/Spaceship.h"
+	<SFML/Window/Keyboard.hpp>
+
+1625102625 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\src\basescene.cpp
+	"BaseScene.h"
+	<string>
+	<iostream>
+	<sstream>
+
+1626913734 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\basescene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Object.h"
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/CircleShape.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/ConvexShape.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/RectangleShape.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/RenderTexture.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shader.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Text.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/Graphics/VertexBuffer.hpp>
+	<SFML/Graphics/View.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Clipboard.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+	<SFML/Window/Touch.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/FileInputStream.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/MemoryInputStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\config.hpp
+	"TargetConditionals.h"
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\fileinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdio>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\memoryinputstream.hpp
+	<SFML/Config.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Export.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Utf.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<SFML/System/String.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\utf.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\string.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\thread.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\threadlocalptr.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\vector2.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\system\vector3.inl
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\clipboard.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\context.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\glresource.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\contextsettings.hpp
+	<SFML/Config.hpp>
+
+1539635488 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\cursor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\event.hpp
+	<SFML/Config.hpp>
+	<SFML/Window/Joystick.hpp>
+	<SFML/Window/Keyboard.hpp>
+	<SFML/Window/Mouse.hpp>
+	<SFML/Window/Sensor.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\joystick.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/String.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\keyboard.hpp
+	<SFML/Window/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\mouse.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\sensor.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/System/Time.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\touch.hpp
+	<SFML/Window/Export.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\videomode.hpp
+	<SFML/Window/Export.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\window.hpp
+	<SFML/Window/ContextSettings.hpp>
+	<SFML/Window/Cursor.hpp>
+	<SFML/Window/Export.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\window\windowstyle.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\blendmode.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\circleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\shape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\drawable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\renderstates.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\transform.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\rect.hpp
+	<SFML/System/Vector2.hpp>
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\rect.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\transformable.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Transform.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\vertexarray.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\vertex.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\color.hpp
+	<SFML/Graphics/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\primitivetype.hpp
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\convexshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\font.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/String.hpp>
+	<map>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\glyph.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\texture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\image.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\rectangleshape.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Shape.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/BlendMode.hpp>
+	<SFML/Graphics/RenderStates.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\view.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Transform.hpp>
+	<SFML/System/Vector2.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\rendertexture.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/ContextSettings.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\shader.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Glsl.hpp>
+	<SFML/Window/GlResource.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<map>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\glsl.hpp
+	<SFML/Graphics/Transform.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+	<SFML/Graphics/Glsl.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\glsl.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\sprite.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Vertex.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\text.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Transformable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/VertexArray.hpp>
+	<SFML/System/String.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\graphics\vertexbuffer.hpp
+	<SFML/Graphics/Export.hpp>
+	<SFML/Graphics/PrimitiveType.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Window/GlResource.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/OutputSoundFile.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundFileFactory.hpp>
+	<SFML/Audio/SoundFileReader.hpp>
+	<SFML/Audio/SoundFileWriter.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\inputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<algorithm>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/Audio/InputSoundFile.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<SFML/System/Mutex.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Vector3.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\alresource.hpp
+	<SFML/Audio/Export.hpp>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\outputsoundfile.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/AlResource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<vector>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundfilefactory.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+	<vector>
+	<SFML/Audio/SoundFileFactory.inl>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundfilefactory.inl
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundfilereader.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1525812018 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\sfml\include\sfml\audio\soundfilewriter.hpp
+	<SFML/Audio/Export.hpp>
+	<string>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\object.h
+	<SFML/Graphics.hpp>
+
+1625104776 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\src\game.cpp
+	"Game.h"
+	<iostream>
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1625103626 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\game.h
+	"BaseScene.h"
+
+1634677320 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\main.cpp
+	<stdlib.h>
+	<time.h>
+	"BaseScene.h"
+	"Game.h"
+	"PlayScene.h"
+
+1634847692 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\playscene.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Collisionable.h"
+	"Object.h"
+	"Player.h"
+	"Ball.h"
+	"BaseScene.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
+
+1625094412 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\collisionable.h
+	<SFML/Graphics.hpp>
+
+1634847748 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\ball.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	<time.h>
+	"Player.h"
+	"Object.h"
+	"Ball.h"
+	"Collisionable.h"
+
+1634850348 c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\include\player.h
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Texture.hpp>
+	"Object.h"
+	"Ball.h"
+	"Player.h"
+	"Collisionable.h"
+
+1634848943 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\src\ball.cpp
+	"Ball.h"
+	<SFML/Graphics/Texture.hpp>
+
+1634850335 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\src\player.cpp
+	"Player.h"
+	<SFML/Window/Keyboard.hpp>
+
+1634849543 source:c:\users\user\desktop\facultad\laboratorio2\arkanoid\arkanoid\src\playscene.cpp
+	"../include/PlayScene.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Ball.h"
+	"../include/Player.h"
+
