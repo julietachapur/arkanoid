@@ -21,6 +21,7 @@ void Player::update(){
 void Player::draw(sf::RenderWindow &w){
     w.draw(spPlayer);
 }
+
 bool Player::isCollision(const Collisionable& _object)const{
    return getBounds().intersects(_object.getBounds());
 }

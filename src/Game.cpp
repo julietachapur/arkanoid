@@ -32,6 +32,7 @@ Game &Game::getInstance(){
     return *instance;
 }
 
+
 void Game::run(){
     while(w.isOpen() && currentScene != nullptr){
         sf::Event e;
@@ -52,7 +53,7 @@ void Game::run(){
 
 void Game::update(){
     currentScene->update();
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Backspace)){//si se aprieta esc se cierra
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)){//si se aprieta esc se cierra
         w.close();
     }
 

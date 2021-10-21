@@ -7,6 +7,8 @@ Ball::Ball(){
     spBall.setOrigin(2,2);
     srand(time(0)); //que se mueva random
     spBall.setPosition(rand()%200, 200);
+
+
     velBall.x = 2+rand()%3;
     velBall.y = 2+rand()%3;
 }
@@ -17,22 +19,22 @@ void Ball::update(){
     sf::Vector2f ballPos = spBall.getPosition();
 
     if(ballPos.x < 0){
-        spBall.setPosition(25, ballPos.y);
+        spBall.setPosition(10, ballPos.y);
         velBall.x *= -1;
     }
-    if(ballPos.x >400 ){
-        spBall.setPosition(400-25, ballPos.y);
+    if(ballPos.x >380){
+        spBall.setPosition(380-10, ballPos.y);
         velBall.x *= -1;
     }
     if(ballPos.y < 0){
-        spBall.setPosition(ballPos.x,25);
+        spBall.setPosition(ballPos.x,10);
         velBall.y *= -1;
     }
-    if(ballPos.y > 500){
-        spBall.setPosition(ballPos.x,500-25);
+    if(ballPos.y > 480){
+        spBall.setPosition(ballPos.x,480-10);
         velBall.y *= -1;
     }
-    velBall.y += 0.02;
+    //velBall.y += 0.02;
     spBall.move(velBall);
 
 }
