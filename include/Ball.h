@@ -20,6 +20,7 @@ class Ball: public Object ,public Collisionable{
         sf::Vector2f velBall;
         sf::FloatRect getBounds() const;
         sf::Sprite &getSprite();
+        void dirChange();
 
     private:
         sf::Sprite spBall;

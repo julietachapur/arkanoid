@@ -15,23 +15,24 @@ Ball::Ball(){
 
 void Ball::update(){
 
+
     spBall.move(velBall);
     sf::Vector2f ballPos = spBall.getPosition();
 
     if(ballPos.x < 0){
-        spBall.setPosition(10, ballPos.y);
+        spBall.setPosition(2, ballPos.y);
         velBall.x *= -1;
     }
-    if(ballPos.x >380){
-        spBall.setPosition(380-10, ballPos.y);
+    if(ballPos.x >388){
+        spBall.setPosition(385, ballPos.y);
         velBall.x *= -1;
     }
     if(ballPos.y < 0){
-        spBall.setPosition(ballPos.x,10);
+        spBall.setPosition(ballPos.x,2);
         velBall.y *= -1;
     }
     if(ballPos.y > 480){
-        spBall.setPosition(ballPos.x,480-10);
+        spBall.setPosition(ballPos.x,477);
         velBall.y *= -1;
     }
     //velBall.y += 0.02;
@@ -41,18 +42,27 @@ void Ball::update(){
 void Ball::moveBall(const Collisionable& p){
     sf::Vector2f velBall = getVelocity();
 
+
     if(velBall.y >0){
         float diferencia = getBounds().top + getBounds().height - p.getBounds().top;
         spBall.move(0,diferencia);
         velBall.y *= -1;
+
     }
 
     if(velBall.y < 0){
         float diferencia = p.getBounds().top + p.getBounds().height - getBounds().top;
-        spBall.move(0,-diferencia);
-        velBall.y *= -1;
+        spBall.move(0, -diferencia);
+        velBall.y *= 1;
     }
 }
+
+void Ball::dirChange(){
+sf::Vector2f ballPos = spBall.getPosition();
+velBall.y*=-1;
+}
+
+
 const sf::Vector2f& Ball::getVelocity()const{
     return velBall;
 }
@@ -75,3 +85,4 @@ sf::FloatRect Ball::getBounds()const{
     rect.left = spBall.getPosition().x;
     rect.top = spBall.getPosition().y;
     return rect;}
+

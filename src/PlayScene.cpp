@@ -28,11 +28,24 @@ void PlayScene::update(){
         }
         else{pause = true;}
         }
+
+
+
     if(!pause) BaseScene::update();
+    colisiones_ball();
 }
 
 void PlayScene::draw(sf::RenderWindow &w)
 {
     w.draw(spBackground);
     BaseScene::draw(w);
+}
+
+void PlayScene::colisiones_ball(){
+    if(ball->isCollision(*player)){
+        ball->moveBall(*player);
+        ball->dirChange();
+    }
+
+
 }

@@ -11,10 +11,10 @@ Player::Player(const sf::Vector2f &pos){
 
 void Player::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
-        spPlayer.move(2,0);
+        spPlayer.move(3,0);
     }
     else if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-        spPlayer.move(-2,0);
+        spPlayer.move(-3,0);
     }
 }
 

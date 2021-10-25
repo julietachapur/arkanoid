@@ -41,13 +41,18 @@ void Game::run(){
                 w.close();//trabaja con una cola de eventos
 
         }
+
+
         update();
         draw();
+
+
         if(nextScene != nullptr){
             delete currentScene;
             currentScene = nextScene;
             nextScene = nullptr;
         }
+
     }
 }
 
@@ -56,6 +61,8 @@ void Game::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)){//si se aprieta esc se cierra
         w.close();
     }
+
+
 
 }
 
