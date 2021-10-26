@@ -19,12 +19,13 @@ class Ball: public Object ,public Collisionable{
         const sf::Vector2f& getVelocity()const;
         sf::Vector2f velBall;
         sf::FloatRect getBounds() const;
-        sf::Sprite &getSprite();
+        sf::CircleShape &getSprite();
         void dirChange();
 
     private:
-        sf::Sprite spBall;
-        sf::Texture texBall;
+        sf::CircleShape spBall;
+        int toques=0;
+        //sf::Texture texBall;
 
 };
 #endif // BALL_H

@@ -1,8 +1,9 @@
 #include "Ball.h"
 #include <SFML/Graphics/Texture.hpp>
 Ball::Ball(){
-    texBall.loadFromFile("assets/images/meteor.png");
-    spBall.setTexture(texBall);
+    //texBall.loadFromFile("assets/images/meteor.png");
+    //spBall.setTexture(texBall);
+    spBall.setRadius(20.0f);
     spBall.scale(0.2,0.2);
     spBall.setOrigin(2,2);
     srand(time(0)); //que se mueva random
@@ -58,8 +59,16 @@ void Ball::moveBall(const Collisionable& p){
 }
 
 void Ball::dirChange(){
-sf::Vector2f ballPos = spBall.getPosition();
+//sf::Vector2f ballPos = spBall.getPosition();
 velBall.y*=-1;
+if(toques==2){
+    velBall.x*=-1;
+    velBall.y*=-1;
+
+    toques=0;
+
+}
+toques++;
 }
 
 
@@ -71,7 +80,7 @@ void Ball::draw(sf::RenderWindow &w){
     w.draw(spBall);
 }
 
-sf::Sprite &Ball::getSprite(){
+sf::CircleShape &Ball::getSprite(){
     return spBall;}
 
 
