@@ -60,6 +60,7 @@
 		<Unit filename="include/Ball.h" />
 		<Unit filename="include/BaseScene.h" />
 		<Unit filename="include/Collisionable.h" />
+		<Unit filename="include/EndGame.h" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/LimiteGameOver.h" />
@@ -71,6 +72,7 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Ball.cpp" />
 		<Unit filename="src/BaseScene.cpp" />
+		<Unit filename="src/EndGame.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/LimiteGameOver.cpp" />

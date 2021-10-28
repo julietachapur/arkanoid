@@ -18,6 +18,7 @@ class Player:public Object ,public Collisionable{
         sf::Sprite &getSprite();
 
     private:
+        float playerVelocity = 5;
         sf::Sprite spPlayer;
         sf::Texture texPlayer;
 };

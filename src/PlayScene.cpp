@@ -54,6 +54,10 @@ void PlayScene::update(){
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
+    if(vidas==0){
+       Game::getInstance().switchScene(new EndGame());
+    }
+    vida.setString("vidas " + to_string(vidas));
 }
 
 void PlayScene::draw(sf::RenderWindow &w)
@@ -72,10 +76,10 @@ void PlayScene::colisiones_ball(){
     }
 
     if(ball->isCollision(*limit)){
-       vidas--;
+        if(ball->velBall.y>0){
+            vidas--;
+        }
     }
-
-
 }
 
 void PlayScene::colisiones_limit(){

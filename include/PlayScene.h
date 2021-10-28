@@ -9,6 +9,7 @@
 #include "BaseScene.h"
 #include "Enemy.h"
 #include "LimiteGameOver.h"
+#include "EndGame.h"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -25,7 +26,7 @@ class PlayScene: public BaseScene{
         /*Enemy *enemy;
         Enemy *enemy_2;
         Enemy *enemy_3;*/
-        int vidas;
+        int vidas = 3;
 
         sf::Text vida;
         sf::Font font;

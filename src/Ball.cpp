@@ -94,4 +94,3 @@ sf::FloatRect Ball::getBounds()const{
     rect.left = spBall.getPosition().x;
     rect.top = spBall.getPosition().y;
     return rect;}
-

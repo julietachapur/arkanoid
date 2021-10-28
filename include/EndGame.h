@@ -5,11 +5,10 @@
 #include <vector>
 #include <string>
 #include "./BaseScene.h"
-#include "./Global.h"
 
 using namespace std;
 
-class EndGame: public BaseScene, public Global{
+class EndGame: public BaseScene{
     private:
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
@@ -17,18 +16,7 @@ class EndGame: public BaseScene, public Global{
 
         sf::Font textFont;
         sf::Text titleText;
-        sf::Text highScore;
-        sf::Text highScoreValue;
-        sf::Text newText;
-        sf::Text newHighScore;
-        sf::Text newHighScoreValue;
-        sf::Text scoreText;
-        sf::Text scoreValue;
-        sf::Text backMenu;
-        sf::Text replay;
         sf::Text exit;
-
-        Global *global;
 
     public:
         EndGame();

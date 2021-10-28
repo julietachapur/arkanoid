@@ -10,11 +10,25 @@ Player::Player(const sf::Vector2f &pos){
 }
 
 void Player::update(){
-    if(sf::Keyboard::isKeyPressed(sf::Keyboard::D)){
-        spPlayer.move(3,0);
+    spPlayer.move(velocity);
+    if(sf::Keyboard::isKeyPressed(sf::Keyboard::Left)){
+        if(getBounds().left<=0){
+            velocity.x = playerVelocity;
+        }
+        else{
+            velocity.x= -playerVelocity;
+        }
     }
-    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::A)){
-        spPlayer.move(-3,0);
+    else if(sf::Keyboard::isKeyPressed(sf::Keyboard::Right)){
+        if(getBounds().left + 100>=400){//harcodeado hay que modificar esto
+            velocity.x = -playerVelocity;
+        }
+        else{
+            velocity.x= playerVelocity;
+        }
+    }
+    else{
+        velocity.x = 0;
     }
 }
 
