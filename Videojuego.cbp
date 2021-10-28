@@ -60,8 +60,9 @@
 		<Unit filename="include/Ball.h" />
 		<Unit filename="include/BaseScene.h" />
 		<Unit filename="include/Collisionable.h" />
+		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game.h" />
-		<Unit filename="include/Limite_inf.h" />
+		<Unit filename="include/LimiteGameOver.h" />
 		<Unit filename="include/Object.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -70,8 +71,9 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Ball.cpp" />
 		<Unit filename="src/BaseScene.cpp" />
+		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/Limite_inf.cpp" />
+		<Unit filename="src/LimiteGameOver.cpp" />
 		<Unit filename="src/PlayScene.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions>

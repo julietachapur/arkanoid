@@ -6,7 +6,8 @@
 #include <iostream>
 #include "../include/Ball.h"
 #include "../include/Player.h"
-#include"../include/Limite_inf.h"
+#include"../include/Enemy.h"
+#include"../include/LimiteGameOver.h"
 using namespace std;
 
 PlayScene::PlayScene()
@@ -20,8 +21,11 @@ void PlayScene::init(){//inicializacion
     BaseScene::add(player);
     ball = new Ball();
     BaseScene::add(ball);
-    //limit=new Limite_inf(sf::Vector2f(50,50));
-    //BaseScene::add(limit);
+    enemy = new Enemy();
+    BaseScene::add(enemy);
+    limit= new LimiteGameOver();
+    BaseScene::add(limit);
+
     texBackground.loadFromFile("assets/images/bckground.png");
     spBackground.setTexture(texBackground);
 
@@ -49,6 +53,7 @@ void PlayScene::update(){
 
     if(!pause) BaseScene::update();
     colisiones_ball();
+    colisiones_enemy();
 }
 
 void PlayScene::draw(sf::RenderWindow &w)
@@ -66,14 +71,22 @@ void PlayScene::colisiones_ball(){
         ball->dirChange();
     }
 
-    if(pos.y==400){
-        vidas--;
-        if(vidas==0){
-            w.close();
-        }
-        vida.setString("Vidas "+to_string(vidas));
-        ball->dirChange();
+    if(ball->isCollision(*limit)){
+       vidas--;
     }
 
+
+}
+
+void PlayScene::colisiones_limit(){
+if(limit->isCollision(*ball)){
+    w.close();
+}
+}
+
+void PlayScene::colisiones_enemy(){
+    if(enemy->isCollision(*ball)){
+        enemy->disapear();
+    }
 
 }

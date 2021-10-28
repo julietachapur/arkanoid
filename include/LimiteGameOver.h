@@ -1,27 +1,23 @@
-#ifndef LIMITE_INF_H
-#define LIMITE_INF_H
-
+#ifndef LIMITEGAMEOVER_H
+#define LIMITEGAMEOVER_H
+#define PLAYER_H
 #include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Texture.hpp>
-#include <time.h>
-#include "Player.h"
 #include "Object.h"
-#include "Ball.h"
 #include "Collisionable.h"
 
-class Limite_inf:public Object, public Collisionable
+class LimiteGameOver: public Object, public Collisionable
 {
     public:
-        Limite_inf(const sf::Vector2f &pos);
-
-        //void update() override;
+        LimiteGameOver();
+        void update();
         bool isCollision(const Collisionable& _object)const;
         void draw(sf::RenderWindow &w) override;
-
         sf::FloatRect getBounds() const;
-    private:
 
+    private:
         sf::RectangleShape limit;
 };
 
-#endif // LIMITE_INF_H
+#endif // LIMITEGAMEOVER_H

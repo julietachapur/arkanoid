@@ -6,8 +6,9 @@
 #include "Object.h"
 #include "Player.h"
 #include "Ball.h"
-#include "Limite_inf.h"
 #include "BaseScene.h"
+#include "Enemy.h"
+#include "LimiteGameOver.h"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -30,10 +31,13 @@ class PlayScene: public BaseScene{
         sf::Font font;
         Player *player;
         Ball *ball;
-        Limite_inf *limit;
+        Enemy *enemy;
+        LimiteGameOver *limit;
 
         void init();
         void colisiones_ball();
+        void colisiones_enemy();
+        void colisiones_limit();
 
     public:
 

@@ -5,6 +5,8 @@
 #include "PlayScene.h"
 
 int main ( int argc, char** argv ){
+
+
     BaseScene *scene = new PlayScene();
     Game &g = Game::create(sf::VideoMode(400, 500), scene, "ARKANOID");
 
