@@ -16,6 +16,8 @@ class Player:public Object ,public Collisionable{
         sf::FloatRect getBounds() const;
         sf::Vector2f velocity;
         sf::Sprite &getSprite();
+         sf::Vector2f getPos();
+
 
     private:
         float playerVelocity = 5;

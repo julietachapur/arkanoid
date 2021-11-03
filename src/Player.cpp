@@ -48,3 +48,9 @@ sf::FloatRect Player::getBounds()const{
     rect.left = spPlayer.getPosition().x;
     rect.top = spPlayer.getPosition().y;
     return rect;}
+
+
+sf::Vector2f Player::getPos(){
+return spPlayer.getPosition();
+
+}

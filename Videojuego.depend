@@ -5611,10 +5611,11 @@
 	"../include/Ball.h"
 	"../include/Player.h"
 
-1635388298 source:c:\users\lucas\documents\github\arkanoid\main.cpp
+1635904995 source:c:\users\lucas\documents\github\arkanoid\main.cpp
 	<stdlib.h>
 	<time.h>
 	"BaseScene.h"
+	"Menu.h"
 	"Game.h"
 	"PlayScene.h"
 
@@ -6143,7 +6144,7 @@
 1634854646 c:\users\lucas\documents\github\arkanoid\include\game.h
 	"BaseScene.h"
 
-1635389462 c:\users\lucas\documents\github\arkanoid\include\playscene.h
+1635905420 c:\users\lucas\documents\github\arkanoid\include\playscene.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Collisionable.h"
@@ -6153,6 +6154,7 @@
 	"BaseScene.h"
 	"Enemy.h"
 	"LimiteGameOver.h"
+	"EndGame.h"
 	<vector>
 	<string>
 	<iostream>
@@ -6161,7 +6163,7 @@
 1634851029 c:\users\lucas\documents\github\arkanoid\include\collisionable.h
 	<SFML/Graphics.hpp>
 
-1634851029 c:\users\lucas\documents\github\arkanoid\include\player.h
+1635812659 c:\users\lucas\documents\github\arkanoid\include\player.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6170,7 +6172,7 @@
 	"Player.h"
 	"Collisionable.h"
 
-1635204246 c:\users\lucas\documents\github\arkanoid\include\ball.h
+1635902666 c:\users\lucas\documents\github\arkanoid\include\ball.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6180,7 +6182,7 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1635206817 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
+1635905691 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
@@ -6197,11 +6199,11 @@
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
 
-1635127404 source:c:\users\lucas\documents\github\arkanoid\src\player.cpp
+1635812659 source:c:\users\lucas\documents\github\arkanoid\src\player.cpp
 	"Player.h"
 	<SFML/Window/Keyboard.hpp>
 
-1635389271 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
+1635905527 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
 	"../include/PlayScene.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
@@ -6211,6 +6213,7 @@
 	"../include/Ball.h"
 	"../include/Player.h"
 	"../include/Enemy.h"
+	"../include/LimiteGameOver.h"
 
 1635212370 source:c:\users\lucas\documents\github\arkanoid\src\limite_inf.cpp
 	"Limite_inf.h"
@@ -6224,16 +6227,17 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1635388400 c:\users\lucas\documents\github\arkanoid\include\enemy.h
+1635905252 c:\users\lucas\documents\github\arkanoid\include\enemy.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
 	"Object.h"
 	"Collisionable.h"
 
-1635388581 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
+1635905606 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
 	"Enemy.h"
 	<SFML/Window/Keyboard.hpp>
+	<cstdlib>
 
 1635389260 c:\users\lucas\documents\github\arkanoid\include\limitegameover.h
 	<SFML/Graphics/RenderWindow.hpp>
@@ -6242,7 +6246,7 @@
 	"Object.h"
 	"Collisionable.h"
 
-1635389278 source:c:\users\lucas\documents\github\arkanoid\src\limitegameover.cpp
+1635453869 source:c:\users\lucas\documents\github\arkanoid\src\limitegameover.cpp
 	"LimiteGameOver.h"
 
 1635896692 source:c:\users\user\desktop\proyecto c++\arkanoid\main.cpp
@@ -6894,6 +6898,37 @@
 	"./BaseScene.h"
 
 1635898882 source:c:\users\user\desktop\proyecto c++\arkanoid\src\menu.cpp
+	"Menu.h"
+	<sstream>
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"Game.h"
+	"PlayScene.h"
+
+1635904894 c:\users\lucas\documents\github\arkanoid\include\menu.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./Ball.h"
+	"./BaseScene.h"
+
+1635453734 c:\users\lucas\documents\github\arkanoid\include\endgame.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	<vector>
+	<string>
+	"./BaseScene.h"
+
+1635453734 source:c:\users\lucas\documents\github\arkanoid\src\endgame.cpp
+	"EndGame.h"
+	<iostream>
+	"Game.h"
+	"PlayScene.h"
+
+1635904894 source:c:\users\lucas\documents\github\arkanoid\src\menu.cpp
 	"Menu.h"
 	<sstream>
 	<SFML/Graphics.hpp>

@@ -33,8 +33,11 @@ class PlayScene: public BaseScene{
         sf::Font font;
         Player *player;
         Ball *ball;
-        Enemy *enemy;
+        Enemy *enemy[1000];
         LimiteGameOver *limit;
+
+
+        int n=0;
 
         void init();
         void colisiones_ball();
