@@ -27,7 +27,8 @@ class PlayScene: public BaseScene{
         Enemy *enemy_2;
         Enemy *enemy_3;*/
         int vidas = 3;
-
+        int score = 0;
+        sf::Text txt;
         sf::Text vida;
         sf::Font font;
         Player *player;
@@ -39,6 +40,7 @@ class PlayScene: public BaseScene{
         void colisiones_ball();
         void colisiones_enemy();
         void colisiones_limit();
+        void aumentarScore();
 
     public:
 

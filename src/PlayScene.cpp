@@ -38,8 +38,20 @@ void PlayScene::init(){//inicializacion
     vida.setFillColor(sf::Color::White);
     vida.setPosition(330,420);
     vida.setScale(0.5,0.5);
-}
 
+    ///Texto para score
+
+    txt.setFont(font);
+    txt.setString("Score "+ to_string(score));
+    txt.setFillColor(sf::Color::White);
+    txt.setPosition(330,420);
+    txt.setScale(0.5,0.5);
+}
+void PlayScene::aumentarScore()
+{
+    score +=1;
+    txt.setString("Score "+ to_string(score));
+}
 
 void PlayScene::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
@@ -57,6 +69,7 @@ void PlayScene::update(){
     if(vidas==0){
        Game::getInstance().switchScene(new EndGame());
     }
+    aumentarScore();
     vida.setString("vidas " + to_string(vidas));
 }
 
@@ -91,6 +104,7 @@ if(limit->isCollision(*ball)){
 void PlayScene::colisiones_enemy(){
     if(enemy->isCollision(*ball)){
         enemy->disapear();
+        aumentarScore();
     }
 
 }
