@@ -21,15 +21,8 @@ void PlayScene::init(){//inicializacion
     BaseScene::add(player);
     ball = new Ball();
     BaseScene::add(ball);
-    int n=0;
-    for(int i=0;i<=10;i++){
-        for(int j=1;j<=5;j++){
-            enemy[n]= new Enemy(i,j);
-            BaseScene::add(enemy[n]);
-            n++;
-        }
-    }
-
+    enemy = new Enemy();
+    BaseScene::add(enemy);
     limit= new LimiteGameOver();
     BaseScene::add(limit);
 
@@ -45,8 +38,20 @@ void PlayScene::init(){//inicializacion
     vida.setFillColor(sf::Color::White);
     vida.setPosition(330,420);
     vida.setScale(0.5,0.5);
-}
 
+    ///Texto para score
+
+    txt.setFont(font);
+    txt.setString("Score "+ to_string(score));
+    txt.setFillColor(sf::Color::White);
+    txt.setPosition(330,420);
+    txt.setScale(0.5,0.5);
+}
+void PlayScene::aumentarScore()
+{
+    score +=1;
+    txt.setString("Score "+ to_string(score));
+}
 
 void PlayScene::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
@@ -64,6 +69,7 @@ void PlayScene::update(){
     if(vidas==0){
        Game::getInstance().switchScene(new EndGame());
     }
+    aumentarScore();
     vida.setString("vidas " + to_string(vidas));
 }
 
@@ -78,14 +84,13 @@ void PlayScene::colisiones_ball(){
    sf::Vector2f pos=ball->getVelocity();
 
     if(ball->isCollision(*player)){
-       ball->dirChange();
         ball->moveBall(*player);
+        ball->dirChange();
     }
 
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
-           ball->reset();
         }
     }
 }
@@ -97,11 +102,9 @@ if(limit->isCollision(*ball)){
 }
 
 void PlayScene::colisiones_enemy(){
-    for(int i=0;i<n;i++){
-    if(enemy[i]->isCollision(*ball)){
-        enemy[i]->disapear();
-        ball->dirChangeE();
-    }
+    if(enemy->isCollision(*ball)){
+        enemy->disapear();
+        aumentarScore();
     }
 
 }

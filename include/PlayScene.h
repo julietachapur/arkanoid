@@ -27,18 +27,20 @@ class PlayScene: public BaseScene{
         Enemy *enemy_2;
         Enemy *enemy_3;*/
         int vidas = 3;
-        int n;
+        int score = 0;
+        sf::Text txt;
         sf::Text vida;
         sf::Font font;
         Player *player;
         Ball *ball;
-        Enemy *enemy[1000];
+        Enemy *enemy;
         LimiteGameOver *limit;
 
         void init();
         void colisiones_ball();
         void colisiones_enemy();
         void colisiones_limit();
+        void aumentarScore();
 
     public:
 

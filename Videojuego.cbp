@@ -64,6 +64,7 @@
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game.h" />
 		<Unit filename="include/LimiteGameOver.h" />
+		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Object.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -76,6 +77,7 @@
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/LimiteGameOver.cpp" />
+		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/PlayScene.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions>
