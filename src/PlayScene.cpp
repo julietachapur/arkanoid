@@ -21,8 +21,15 @@ void PlayScene::init(){//inicializacion
     BaseScene::add(player);
     ball = new Ball();
     BaseScene::add(ball);
-    enemy = new Enemy();
-    BaseScene::add(enemy);
+    int n=0;
+    for(int i=0;i<=10;i++){
+        for(int j=1;j<=5;j++){
+            enemy[n]= new Enemy(i,j);
+            BaseScene::add(enemy[n]);
+            n++;
+        }
+    }
+
     limit= new LimiteGameOver();
     BaseScene::add(limit);
 
@@ -71,13 +78,14 @@ void PlayScene::colisiones_ball(){
    sf::Vector2f pos=ball->getVelocity();
 
     if(ball->isCollision(*player)){
+       ball->dirChange();
         ball->moveBall(*player);
-        ball->dirChange();
     }
 
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
+           ball->reset();
         }
     }
 }
@@ -89,8 +97,11 @@ if(limit->isCollision(*ball)){
 }
 
 void PlayScene::colisiones_enemy(){
-    if(enemy->isCollision(*ball)){
-        enemy->disapear();
+    for(int i=0;i<n;i++){
+    if(enemy[i]->isCollision(*ball)){
+        enemy[i]->disapear();
+        ball->dirChangeE();
+    }
     }
 
 }

@@ -10,8 +10,8 @@ Ball::Ball(){
     spBall.setPosition(rand()%200, 200);
 
 
-    velBall.x = 2+rand()%3;
-    velBall.y = 2+rand()%3;
+    velBall.x = 2+rand()%2;
+    velBall.y = 2+rand()%2;
 }
 
 void Ball::update(){
@@ -36,7 +36,7 @@ void Ball::update(){
         spBall.setPosition(ballPos.x,477);
         velBall.y *= -1;
     }
-    //velBall.y += 0.02;
+    velBall.y += 0.02;
     spBall.move(velBall);
 
 }
@@ -59,16 +59,12 @@ void Ball::moveBall(const Collisionable& p){
 }
 
 void Ball::dirChange(){
-//sf::Vector2f ballPos = spBall.getPosition();
+velBall.x=2+rand()%2;
 velBall.y*=-1;
-if(toques==2){
-    velBall.x*=-1;
-    velBall.y*=-1;
-
-    toques=0;
-
 }
-toques++;
+
+void Ball::dirChangeE(){
+velBall.y*=-1;
 }
 
 
@@ -94,3 +90,14 @@ sf::FloatRect Ball::getBounds()const{
     rect.left = spBall.getPosition().x;
     rect.top = spBall.getPosition().y;
     return rect;}
+
+void Ball::reset(){
+srand(time(0));
+spBall.setPosition(rand()%200, 200);
+
+}
+
+sf::Vector2f Ball::getPos(){
+return spBall.getPosition();
+
+}

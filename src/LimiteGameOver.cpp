@@ -4,7 +4,7 @@ LimiteGameOver::LimiteGameOver()
 {
     limit.setSize(sf::Vector2f(400,1));
     limit.setFillColor(sf::Color::White);
-    limit.setPosition(120,400);
+    limit.setPosition(0,410);
 }
 
 void LimiteGameOver::update(){

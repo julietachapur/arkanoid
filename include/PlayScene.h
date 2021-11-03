@@ -27,12 +27,12 @@ class PlayScene: public BaseScene{
         Enemy *enemy_2;
         Enemy *enemy_3;*/
         int vidas = 3;
-
+        int n;
         sf::Text vida;
         sf::Font font;
         Player *player;
         Ball *ball;
-        Enemy *enemy;
+        Enemy *enemy[1000];
         LimiteGameOver *limit;
 
         void init();
