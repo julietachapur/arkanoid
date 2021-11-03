@@ -44,7 +44,7 @@ void PlayScene::init(){//inicializacion
     txt.setFont(font);
     txt.setString("Score "+ to_string(score));
     txt.setFillColor(sf::Color::White);
-    txt.setPosition(330,420);
+    txt.setPosition(30,420);
     txt.setScale(0.5,0.5);
 }
 void PlayScene::aumentarScore()
@@ -69,7 +69,6 @@ void PlayScene::update(){
     if(vidas==0){
        Game::getInstance().switchScene(new EndGame());
     }
-    aumentarScore();
     vida.setString("vidas " + to_string(vidas));
 }
 
@@ -78,6 +77,7 @@ void PlayScene::draw(sf::RenderWindow &w)
     w.draw(spBackground);
     BaseScene::draw(w);
     w.draw(vida);
+    w.draw(txt);
 }
 
 void PlayScene::colisiones_ball(){
