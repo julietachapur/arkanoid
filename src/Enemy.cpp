@@ -7,8 +7,8 @@ Enemy::Enemy(int x, int y){
 
 txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
 spEnemy.setTexture(txtEnemy);
-spEnemy.setPosition(x*50,y*30);
-spEnemy.setScale(0.3,0.2);
+spEnemy.setPosition(x*60,y*30);
+spEnemy.setScale(0.2,0.2);
 spEnemy.setOrigin(2,2);
 }
 

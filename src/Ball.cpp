@@ -59,7 +59,7 @@ void Ball::moveBall(const Collisionable& p){
 }
 
 void Ball::dirChange(){
-velBall.x=2+rand()%2;
+velBall.x=(2+rand()%2);
 velBall.y*=-1;
 }
 
