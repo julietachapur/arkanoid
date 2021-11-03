@@ -39,10 +39,6 @@ Menu::Menu(){
     exitText.setCharacterSize(10);
     exitText.setPosition(230, 480);
 
-    //musica
-//    music.openFromFile("assets/music/music.ogg");
-//	music.setLoop(true);
-//	music.play();
 }
 
 void Menu::update(){
