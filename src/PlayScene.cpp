@@ -55,6 +55,13 @@ void PlayScene::init(){//inicializacion
     txt.setFillColor(sf::Color::White);
     txt.setPosition(30,420);
     txt.setScale(0.5,0.5);
+
+    ///Musica
+    /*music.openFromFile("assets/music/music.ogg");
+    music.setLoop(true);
+    music.play();*/
+
+
 }
 void PlayScene::aumentarScore()
 {

@@ -22,7 +22,7 @@ class PlayScene: public BaseScene{
         sf::RenderWindow w; //sfml
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
-        //sf::Music music;
+        sf::Music music;
         /*Enemy *enemy;
         Enemy *enemy_2;
         Enemy *enemy_3;*/

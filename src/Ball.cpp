@@ -10,8 +10,8 @@ Ball::Ball(){
     spBall.setPosition(rand()%200, 200);
 
 
-    velBall.x = 2+rand()%2;
-    velBall.y = 2+rand()%2;
+    velBall.x = 1 +rand()%2;
+    velBall.y = 1 + rand()%2;
 }
 
 void Ball::update(){
@@ -56,6 +56,10 @@ void Ball::moveBall(const Collisionable& p){
         spBall.move(0, -diferencia);
         velBall.y *= 1;
     }
+    if(velBall.y > -.05f && velBall.y < .05f){
+        velBall.y = 3;
+    }
+    velBall.x = 1.05*(velBall.x>0 ? velBall.x:-velBall.x);
 }
 
 void Ball::dirChange(){

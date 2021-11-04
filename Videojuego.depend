@@ -6782,7 +6782,7 @@
 1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\game.h
 	"BaseScene.h"
 
-1635898507 c:\users\user\desktop\proyecto c++\arkanoid\include\playscene.h
+1636064981 c:\users\user\desktop\proyecto c++\arkanoid\include\playscene.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Collisionable.h"
@@ -6801,7 +6801,7 @@
 1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\collisionable.h
 	<SFML/Graphics.hpp>
 
-1635436297 c:\users\user\desktop\proyecto c++\arkanoid\include\player.h
+1635944454 c:\users\user\desktop\proyecto c++\arkanoid\include\player.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6810,7 +6810,7 @@
 	"Player.h"
 	"Collisionable.h"
 
-1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\ball.h
+1635944454 c:\users\user\desktop\proyecto c++\arkanoid\include\ball.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6820,7 +6820,7 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\enemy.h
+1635944454 c:\users\user\desktop\proyecto c++\arkanoid\include\enemy.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6834,7 +6834,7 @@
 	"Object.h"
 	"Collisionable.h"
 
-1635444657 source:c:\users\user\desktop\proyecto c++\arkanoid\src\ball.cpp
+1635944454 source:c:\users\user\desktop\proyecto c++\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
@@ -6844,9 +6844,10 @@
 	<iostream>
 	<sstream>
 
-1635432148 source:c:\users\user\desktop\proyecto c++\arkanoid\src\enemy.cpp
+1635944454 source:c:\users\user\desktop\proyecto c++\arkanoid\src\enemy.cpp
 	"Enemy.h"
 	<SFML/Window/Keyboard.hpp>
+	<cstdlib>
 
 1635432148 source:c:\users\user\desktop\proyecto c++\arkanoid\src\game.cpp
 	"Game.h"
@@ -6855,14 +6856,14 @@
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
 
-1635444042 source:c:\users\user\desktop\proyecto c++\arkanoid\src\limitegameover.cpp
+1635944454 source:c:\users\user\desktop\proyecto c++\arkanoid\src\limitegameover.cpp
 	"LimiteGameOver.h"
 
-1635436262 source:c:\users\user\desktop\proyecto c++\arkanoid\src\player.cpp
+1635944454 source:c:\users\user\desktop\proyecto c++\arkanoid\src\player.cpp
 	"Player.h"
 	<SFML/Window/Keyboard.hpp>
 
-1635899938 source:c:\users\user\desktop\proyecto c++\arkanoid\src\playscene.cpp
+1636066008 source:c:\users\user\desktop\proyecto c++\arkanoid\src\playscene.cpp
 	"../include/PlayScene.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
