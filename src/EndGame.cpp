@@ -24,7 +24,7 @@ EndGame::EndGame(){
     // BACK TO MENU
     exit.setFont(textFont);
     exit.setColor(sf::Color::Yellow);
-    exit.setString("[backspace] - Exit");
+    exit.setString("[ESC] - Exit");
     exit.setCharacterSize(10);
     exit.setPosition(250, 480);
 }
