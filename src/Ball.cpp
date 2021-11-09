@@ -48,7 +48,6 @@ void Ball::moveBall(const Collisionable& p){
         float diferencia = getBounds().top + getBounds().height - p.getBounds().top;
         spBall.move(0,diferencia);
         velBall.y *= -1;
-
     }
 
     if(velBall.y < 0){
@@ -56,14 +55,16 @@ void Ball::moveBall(const Collisionable& p){
         spBall.move(0, -diferencia);
         velBall.y *= 1;
     }
-    if(velBall.y > -.05f && velBall.y < .05f){
-        velBall.y = 3;
-    }
-    velBall.x = 1.05*(velBall.x>0 ? velBall.x:-velBall.x);
+
 }
 
 void Ball::dirChange(){
-velBall.x=(2+rand()%2);
+if(velBall.x<0){
+   velBall.x=-(2+rand()%2);
+}
+else{
+   velBall.x= 2+rand()%2;
+}
 velBall.y*=-1;
 }
 

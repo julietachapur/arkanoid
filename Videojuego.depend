@@ -6884,13 +6884,13 @@
 
 1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\global.h
 
-1635442249 source:c:\users\user\desktop\proyecto c++\arkanoid\src\endgame.cpp
+1636066410 source:c:\users\user\desktop\proyecto c++\arkanoid\src\endgame.cpp
 	"EndGame.h"
 	<iostream>
 	"Game.h"
 	"PlayScene.h"
 
-1635896715 c:\users\user\desktop\proyecto c++\arkanoid\include\menu.h
+1636066410 c:\users\user\desktop\proyecto c++\arkanoid\include\menu.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<vector>
@@ -6898,7 +6898,7 @@
 	"./Ball.h"
 	"./BaseScene.h"
 
-1635898882 source:c:\users\user\desktop\proyecto c++\arkanoid\src\menu.cpp
+1636066410 source:c:\users\user\desktop\proyecto c++\arkanoid\src\menu.cpp
 	"Menu.h"
 	<sstream>
 	<SFML/Graphics.hpp>
