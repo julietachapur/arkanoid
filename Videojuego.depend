@@ -6144,7 +6144,7 @@
 1635975173 c:\users\lucas\documents\github\arkanoid\include\game.h
 	"BaseScene.h"
 
-1635975173 c:\users\lucas\documents\github\arkanoid\include\playscene.h
+1636499540 c:\users\lucas\documents\github\arkanoid\include\playscene.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Collisionable.h"
@@ -6152,6 +6152,7 @@
 	"Player.h"
 	"Ball.h"
 	"BaseScene.h"
+	"PlayScene2.h"
 	"Enemy.h"
 	"LimiteGameOver.h"
 	"EndGame.h"
@@ -6182,7 +6183,7 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1635975173 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
+1636499977 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
@@ -6203,7 +6204,7 @@
 	"Player.h"
 	<SFML/Window/Keyboard.hpp>
 
-1635975329 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
+1636499929 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
 	"../include/PlayScene.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
@@ -6227,14 +6228,14 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1635975173 c:\users\lucas\documents\github\arkanoid\include\enemy.h
+1636500147 c:\users\lucas\documents\github\arkanoid\include\enemy.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
 	"Object.h"
 	"Collisionable.h"
 
-1635975173 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
+1636499929 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
 	"Enemy.h"
 	<SFML/Window/Keyboard.hpp>
 	<cstdlib>
@@ -6908,7 +6909,7 @@
 	"Game.h"
 	"PlayScene.h"
 
-1635975173 c:\users\lucas\documents\github\arkanoid\include\menu.h
+1635977551 c:\users\lucas\documents\github\arkanoid\include\menu.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<vector>
@@ -6929,7 +6930,7 @@
 	"Game.h"
 	"PlayScene.h"
 
-1635975173 source:c:\users\lucas\documents\github\arkanoid\src\menu.cpp
+1636066605 source:c:\users\lucas\documents\github\arkanoid\src\menu.cpp
 	"Menu.h"
 	<sstream>
 	<SFML/Graphics.hpp>
@@ -6938,4 +6939,32 @@
 	<iostream>
 	"Game.h"
 	"PlayScene.h"
+
+1636500135 source:c:\users\lucas\documents\github\arkanoid\src\playscene2.cpp
+	"PlayScene2.h"
+	"Game.h"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<cstdlib>
+	<iostream>
+	"../include/Ball.h"
+	"../include/Player.h"
+	"../include/Enemy.h"
+	"../include/LimiteGameOver.h"
+
+1636497733 c:\users\lucas\documents\github\arkanoid\include\playscene2.h
+	<SFML/Graphics.hpp>
+	<SFML/Audio.hpp>
+	"Collisionable.h"
+	"Object.h"
+	"Player.h"
+	"Ball.h"
+	"BaseScene.h"
+	"Enemy.h"
+	"LimiteGameOver.h"
+	"EndGame.h"
+	<vector>
+	<string>
+	<iostream>
+	<sstream>
 

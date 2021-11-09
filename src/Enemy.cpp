@@ -2,10 +2,10 @@
 #include <SFML/Window/Keyboard.hpp>
 #include <cstdlib>
 
-Enemy::Enemy(int x, int y){
+Enemy::Enemy(int x, int y, int vidas){
 
-
-txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
+_vidas=vidas;
+txtEnemy.loadFromFile("assets/images/bloquenemigo2.png");
 spEnemy.setTexture(txtEnemy);
 spEnemy.setPosition(x*60,y*30);
 spEnemy.setScale(0.2,0.2);
@@ -37,6 +37,19 @@ void Enemy::disapear(){
 spEnemy.setPosition(-100,0);
 }
 
+
+void Enemy::changeColour(){
+txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
+spEnemy.setTexture(txtEnemy);
+}
+
+int Enemy::getVidas(){
+return _vidas;
+}
+
+void Enemy::disminuir(){
+_vidas--;
+}
 
 //Enemy::~Enemy(){
 //delete Enemy[];

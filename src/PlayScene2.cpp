@@ -1,4 +1,5 @@
-#include "../include/PlayScene.h"
+#include "PlayScene2.h"
+
 #include "Game.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -10,12 +11,12 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene::PlayScene()
+PlayScene2::PlayScene2()
 {
     init();
 }
 
-void PlayScene::init(){//inicializacion
+void PlayScene2::init(){//inicializacion
     vidas=3;
     player = new Player(sf::Vector2f(210,390));
     BaseScene::add(player);
@@ -26,7 +27,7 @@ void PlayScene::init(){//inicializacion
     n=0;
     for(int i=1;i<=5;i++){
         for(int j=0;j<=5;j++){
-            enemy[n]=new Enemy(i,j,1);
+            enemy[n]=new Enemy(i,j,2);
             BaseScene::add(enemy[n]);
             n++;
         }
@@ -63,13 +64,13 @@ void PlayScene::init(){//inicializacion
 
 
 }
-void PlayScene::aumentarScore()
+void PlayScene2::aumentarScore()
 {
     score +=1;
     txt.setString("Score "+ to_string(score));
 }
 
-void PlayScene::update(){
+void PlayScene2::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
         if(pause == true){
             pause = false;
@@ -85,13 +86,10 @@ void PlayScene::update(){
     if(vidas==0){
        Game::getInstance().switchScene(new EndGame());
     }
-    if(score==30){
-        Game::getInstance().switchScene(new PlayScene2());
-    }
     vida.setString("vidas " + to_string(vidas));
 }
 
-void PlayScene::draw(sf::RenderWindow &w)
+void PlayScene2::draw(sf::RenderWindow &w)
 {
     w.draw(spBackground);
     BaseScene::draw(w);
@@ -99,7 +97,7 @@ void PlayScene::draw(sf::RenderWindow &w)
     w.draw(txt);
 }
 
-void PlayScene::colisiones_ball(){
+void PlayScene2::colisiones_ball(){
    sf::Vector2f pos=ball->getVelocity();
 
     if(ball->isCollision(*player)){
@@ -115,19 +113,28 @@ void PlayScene::colisiones_ball(){
     }
 }
 
-void PlayScene::colisiones_limit(){
+void PlayScene2::colisiones_limit(){
 if(limit->isCollision(*ball)){
     w.close();
 }
 }
 
-void PlayScene::colisiones_enemy(){
+void PlayScene2::colisiones_enemy(){
 
    for(int i=0;i<n;i++){
         if(enemy[i]->isCollision(*ball)){
-        enemy[i]->disapear();
+        if(enemy[i]->getVidas()==0){
+            enemy[i]->disapear();
+            ball->dirChangeE();
+            aumentarScore();
+        }
+        else{
         ball->dirChangeE();
+        enemy[i]->disminuir();
+        enemy[i]->changeColour();
         aumentarScore();
+        }
+
     }
    }
 

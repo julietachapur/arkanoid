@@ -11,7 +11,7 @@ class Enemy: public Object, public Collisionable
 {
 
 public:
-        Enemy(int x, int y);
+        Enemy(int x, int y, int vidas);
         ~Enemy();
         void update() override;
         bool isCollision(const Collisionable& _object)const;
@@ -20,9 +20,14 @@ public:
         sf::Vector2f velocity;
         sf::Sprite &getSprite();
         void disapear();
+        void changeColour();
+
+        int getVidas();
+        void disminuir();
 private:
         sf::Sprite spEnemy;
         sf::Texture txtEnemy;
+        int _vidas;
 
         bool slots_enemy;
 };

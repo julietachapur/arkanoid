@@ -36,7 +36,7 @@ void Ball::update(){
         spBall.setPosition(ballPos.x,477);
         velBall.y *= -1;
     }
-    velBall.y += 0.02;
+    velBall.y += 0.002;
     spBall.move(velBall);
 
 }
