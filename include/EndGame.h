@@ -12,11 +12,14 @@ class EndGame: public BaseScene{
     private:
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
-        //sf::Music music;
+        sf::Texture texAstronaut;//fondo
+        sf::Sprite spAstronaut;
+        sf::Music music;
 
         sf::Font textFont;
         sf::Text titleText;
         sf::Text exit;
+
 
     public:
         EndGame();

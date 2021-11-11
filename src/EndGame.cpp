@@ -9,6 +9,11 @@ EndGame::EndGame(){
     spBackground.setTexture(texBackground);
     spBackground.setScale(0.5, 0.5);
 
+    // LOAD ASTRONAUT
+    texAstronaut.loadFromFile("assets/images/astro.png");
+    spAstronaut.setTexture(texAstronaut);
+    spAstronaut.setPosition(20,50);
+    spAstronaut.setScale(0.2, 0.2);
     // LOAD FONT
     if(!textFont.loadFromFile("assets/fonts/menu-font.ttf")){
         cout << "Error loading font" << endl;
@@ -27,6 +32,11 @@ EndGame::EndGame(){
     exit.setString("[ESC] - Exit");
     exit.setCharacterSize(10);
     exit.setPosition(250, 480);
+
+    //MUSIC
+    music.openFromFile("assets/music/menu.ogg");
+    music.setLoop(true);
+    music.play();
 }
 
 void EndGame::update(){
@@ -39,6 +49,7 @@ void EndGame::update(){
 
 void EndGame::draw(sf::RenderWindow &w){
     w.draw(spBackground);
+    w.draw(spAstronaut);
     w.draw(titleText);
     w.draw(exit);
 }

@@ -6250,7 +6250,7 @@
 1636590013 source:c:\users\lucas\documents\github\arkanoid\src\limitegameover.cpp
 	"LimiteGameOver.h"
 
-1636652101 source:c:\users\user\desktop\proyecto c++\arkanoid\main.cpp
+1636665860 source:c:\users\user\desktop\proyecto c++\arkanoid\main.cpp
 	<stdlib.h>
 	<time.h>
 	"BaseScene.h"
@@ -6878,7 +6878,7 @@
 	"../include/Enemy.h"
 	"../include/LimiteGameOver.h"
 
-1635442399 c:\users\user\desktop\proyecto c++\arkanoid\include\endgame.h
+1636665860 c:\users\user\desktop\proyecto c++\arkanoid\include\endgame.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<vector>
@@ -6887,7 +6887,7 @@
 
 1635432148 c:\users\user\desktop\proyecto c++\arkanoid\include\global.h
 
-1636639425 source:c:\users\user\desktop\proyecto c++\arkanoid\src\endgame.cpp
+1636666034 source:c:\users\user\desktop\proyecto c++\arkanoid\src\endgame.cpp
 	"EndGame.h"
 	<iostream>
 	"Game.h"
@@ -6986,7 +6986,7 @@
 	<iostream>
 	<sstream>
 
-1636639425 source:c:\users\user\desktop\proyecto c++\arkanoid\src\playscene2.cpp
+1636652350 source:c:\users\user\desktop\proyecto c++\arkanoid\src\playscene2.cpp
 	"PlayScene2.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
