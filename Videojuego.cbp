@@ -63,12 +63,14 @@
 		<Unit filename="include/EndGame.h" />
 		<Unit filename="include/Enemy.h" />
 		<Unit filename="include/Game.h" />
+		<Unit filename="include/GlobalScore.h" />
 		<Unit filename="include/LimiteGameOver.h" />
 		<Unit filename="include/Menu.h" />
 		<Unit filename="include/Object.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
 		<Unit filename="include/PlayScene.h" />
+		<Unit filename="include/PlayScene2.h" />
 		<Unit filename="include/Player.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Ball.cpp" />
@@ -76,9 +78,11 @@
 		<Unit filename="src/EndGame.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/GlobalScore.cpp" />
 		<Unit filename="src/LimiteGameOver.cpp" />
 		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/PlayScene.cpp" />
+		<Unit filename="src/PlayScene2.cpp" />
 		<Unit filename="src/Player.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

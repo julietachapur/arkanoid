@@ -84,6 +84,7 @@ void PlayScene2::update(){
     colisiones_ball();
     colisiones_enemy();
     if(vidas==0){
+        music.stop();
        Game::getInstance().switchScene(new EndGame());
     }
     vida.setString("vidas " + to_string(vidas));

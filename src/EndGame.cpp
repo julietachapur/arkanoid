@@ -5,7 +5,7 @@
 
 EndGame::EndGame(){
     // LOAD BACKGROUND IMAGE
-    texBackground.loadFromFile("assets/images/bckground.png");
+    texBackground.loadFromFile("assets/images/gameover.png");
     spBackground.setTexture(texBackground);
     spBackground.setScale(0.5, 0.5);
 
@@ -16,7 +16,7 @@ EndGame::EndGame(){
 
     // GAME OVER TITLE
     titleText.setFont(textFont);
-    titleText.setColor(sf::Color::White);
+    titleText.setColor(sf::Color::Blue);
     titleText.setString("Game Over");
     titleText.setCharacterSize(48);
     titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 50));

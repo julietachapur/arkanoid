@@ -35,7 +35,7 @@ void PlayScene::init(){//inicializacion
     limit= new LimiteGameOver();
     BaseScene::add(limit);
 
-    texBackground.loadFromFile("assets/images/bckground.png");
+    texBackground.loadFromFile("assets/images/level_1.png");
     spBackground.setTexture(texBackground);
 
     font.loadFromFile("assets/fonts/font.ttf");
@@ -83,6 +83,7 @@ void PlayScene::update(){
     colisiones_ball();
     colisiones_enemy();
     if(vidas==0){
+        music.stop();
        Game::getInstance().switchScene(new EndGame());
     }
     if(score==30){

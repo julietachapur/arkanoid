@@ -10,9 +10,9 @@
 using namespace std;
 Menu::Menu(){
     // LOAD BACKGROUND IMAGE
-    /*texBackground.loadFromFile("");
+    texBackground.loadFromFile("assets/images/menu.png");
     spBackground.setTexture(texBackground);
-    spBackground.setScale(0.5, 0.5);*/
+    spBackground.setScale(0.5, 0.5);
 
     // LOAD FONT
     if(!textFont.loadFromFile("assets/fonts/menu-font.ttf")){
@@ -20,14 +20,14 @@ Menu::Menu(){
     };
     // GAME TITLE
     titleText.setFont(textFont);
-    titleText.setColor(sf::Color::White);
+    titleText.setColor(sf::Color::Magenta);
     titleText.setString("Arkaoix");
     titleText.setCharacterSize(48);
     titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 90));
 
     // PLAY
     playText.setFont(textFont);
-    playText.setColor(sf::Color::White);
+    playText.setColor(sf::Color::Cyan);
     playText.setString("Press TAB to start");
     playText.setCharacterSize(16);
     playText.setPosition(sf::Vector2f((400-playText.getGlobalBounds().width)/2.0, 380));
