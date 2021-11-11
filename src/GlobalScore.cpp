@@ -1,4 +1,4 @@
-#inluce <iostream>
+#include <iostream>
 using namespace std;
 
 
@@ -8,18 +8,18 @@ GlobalScore::GlobalScore()
 {
 }
 
-void GlobalScore::setCer(){
+void GlobalScore::setCero(){
     highScore = 0;
     lastScore = 0;
     cout<<highScore;
     cout<<lastScore;
 }
 
-void GlobalScore::getHighScore(){
+int GlobalScore::getHighScore(){
 return highScore;
 }
 
-void GlobalScore::getLastScore(){
+int GlobalScore::getLastScore(){
 return lastScore;
 }
 
@@ -27,6 +27,6 @@ void GlobalScore::setHighScore(int n){
 highScore=n;
 }
 
-void GlobalScore::setHighScore(int n){
+void GlobalScore::setLastScore(int n){
 lastScore=n;
 }

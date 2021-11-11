@@ -85,7 +85,11 @@ void PlayScene2::update(){
     colisiones_enemy();
     if(vidas==0){
         music.stop();
-       Game::getInstance().switchScene(new EndGame());
+        Game::getInstance().switchScene(new EndGame());
+    }
+    if(score==90){
+        music.stop();
+        Game::getInstance().switchScene(new EndGame());
     }
     vida.setString("vidas " + to_string(vidas));
 }

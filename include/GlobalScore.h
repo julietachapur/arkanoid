@@ -5,17 +5,16 @@
 class GlobalScore
 {
     public:
-        GlobalScore();
+       GlobalScore();
        void setHighScore(int n);
        void setLastScore(int n);
 
        void setCero();
 
        int getHighScore();
-       int getLastScore():
+       int getLastScore();
 
     private:
-
         int highScore;
         int lastScore;
 };

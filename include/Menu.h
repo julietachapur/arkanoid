@@ -14,7 +14,10 @@ class Menu: public BaseScene{
     private:
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
-        //sf::Music music;
+        sf::Texture texAstronaut;
+        sf::Sprite spAstronaut;
+        sf::Texture texSpace;
+        sf::Sprite spSpace;
         sf::Font textFont;
         sf::Text titleText;
         sf::Text playText;

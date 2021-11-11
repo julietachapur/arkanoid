@@ -66,6 +66,7 @@
 		<Unit filename="include/GlobalScore.h" />
 		<Unit filename="include/LimiteGameOver.h" />
 		<Unit filename="include/Menu.h" />
+		<Unit filename="include/MenuNextLevel.h" />
 		<Unit filename="include/Object.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
@@ -81,6 +82,7 @@
 		<Unit filename="src/GlobalScore.cpp" />
 		<Unit filename="src/LimiteGameOver.cpp" />
 		<Unit filename="src/Menu.cpp" />
+		<Unit filename="src/MenuNextLevel.cpp" />
 		<Unit filename="src/PlayScene.cpp" />
 		<Unit filename="src/PlayScene2.cpp" />
 		<Unit filename="src/Player.cpp" />

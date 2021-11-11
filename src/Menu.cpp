@@ -14,23 +14,35 @@ Menu::Menu(){
     spBackground.setTexture(texBackground);
     spBackground.setScale(0.5, 0.5);
 
+    // LOAD SPACESHIP
+    texSpace.loadFromFile("assets/images/space1.png");
+    spSpace.setTexture(texSpace);
+    spSpace.setPosition(95,140);
+    spSpace.setScale(0.23, 0.23);
+
+    // LOAD ASTRONAUT
+    texAstronaut.loadFromFile("assets/images/astronaut.png");
+    spAstronaut.setTexture(texAstronaut);
+    spAstronaut.setPosition(2, 20);
+    spAstronaut.setScale(0.5, 0.5);
+
     // LOAD FONT
     if(!textFont.loadFromFile("assets/fonts/menu-font.ttf")){
         cout << "Error loading font" << endl;
     };
     // GAME TITLE
     titleText.setFont(textFont);
-    titleText.setColor(sf::Color::Magenta);
+    titleText.setColor(sf::Color::Black);
     titleText.setString("Arkaoix");
     titleText.setCharacterSize(48);
-    titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 90));
+    titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 200));
 
     // PLAY
     playText.setFont(textFont);
     playText.setColor(sf::Color::Cyan);
     playText.setString("Press TAB to start");
     playText.setCharacterSize(16);
-    playText.setPosition(sf::Vector2f((400-playText.getGlobalBounds().width)/2.0, 380));
+    playText.setPosition(sf::Vector2f((400-playText.getGlobalBounds().width)/2.0, 400));
 
     // EXIT OPTION
     exitText.setFont(textFont);
@@ -56,6 +68,8 @@ void Menu::update(){
 void Menu::draw(sf::RenderWindow &w){
     //w.clear(sf::Color::Black); //limpia la pantalla
     w.draw(spBackground);
+    w.draw(spSpace);
+    w.draw(spAstronaut);
     w.draw(titleText);
     w.draw(playText);
     /*if (Global::getHighScore!= 0) {

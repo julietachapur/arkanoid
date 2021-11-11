@@ -5,6 +5,7 @@
 #include "Collisionable.h"
 #include "Object.h"
 #include "Player.h"
+#include "MenuNextLevel.h"
 #include "Ball.h"
 #include "BaseScene.h"
 #include "PlayScene2.h"

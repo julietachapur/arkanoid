@@ -88,7 +88,7 @@ void PlayScene::update(){
     }
     if(score==30){
         music.stop();
-        Game::getInstance().switchScene(new PlayScene2());
+        Game::getInstance().switchScene(new MenuNextLevel());
     }
     vida.setString("vidas " + to_string(vidas));
 }
