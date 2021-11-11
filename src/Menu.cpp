@@ -39,11 +39,16 @@ Menu::Menu(){
     exitText.setCharacterSize(10);
     exitText.setPosition(230, 480);
 
+    ///Musica
+    music.openFromFile("assets/music/menu.ogg");
+    music.setLoop(true);
+    music.play();
 }
 
 void Menu::update(){
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
+        music.stop();
         Game::getInstance().switchScene(new PlayScene());
     }
 }

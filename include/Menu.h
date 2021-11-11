@@ -21,6 +21,7 @@ class Menu: public BaseScene{
         sf::Text highScoreText;
         sf::Text highScoreValue;
         sf::Text exitText;
+        sf::Music music;
 
 
 

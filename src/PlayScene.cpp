@@ -57,9 +57,9 @@ void PlayScene::init(){//inicializacion
     txt.setScale(0.5,0.5);
 
     ///Musica
-    /*music.openFromFile("assets/music/music.ogg");
+    music.openFromFile("assets/music/level_1.ogg");
     music.setLoop(true);
-    music.play();*/
+    music.play();
 
 
 }
@@ -86,6 +86,7 @@ void PlayScene::update(){
        Game::getInstance().switchScene(new EndGame());
     }
     if(score==30){
+        music.stop();
         Game::getInstance().switchScene(new PlayScene2());
     }
     vida.setString("vidas " + to_string(vidas));

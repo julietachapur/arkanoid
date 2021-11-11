@@ -58,9 +58,9 @@ void PlayScene2::init(){//inicializacion
     txt.setScale(0.5,0.5);
 
     ///Musica
-    /*music.openFromFile("assets/music/music.ogg");
+    music.openFromFile("assets/music/level_2.ogg");
     music.setLoop(true);
-    music.play();*/
+    music.play();
 
 
 }
@@ -123,14 +123,14 @@ void PlayScene2::colisiones_enemy(){
 
    for(int i=0;i<n;i++){
         if(enemy[i]->isCollision(*ball)){
-        if(enemy[i]->getVidas()==0){
+        if(enemy[i]->getVidas()==1){
             enemy[i]->disapear();
             ball->dirChangeE();
             aumentarScore();
         }
         else{
-        ball->dirChangeE();
         enemy[i]->disminuir();
+        ball->dirChangeE();
         enemy[i]->changeColour();
         aumentarScore();
         }
