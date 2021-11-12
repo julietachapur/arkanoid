@@ -11,18 +11,21 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene2::PlayScene2()
+PlayScene2::PlayScene2(int score)
 {
-    init();
+    s=score;
+    init(s);
 }
 
-void PlayScene2::init(){//inicializacion
+void PlayScene2::init(int score){//inicializacion
     vidas=3;
+    contadorEnemigos=30;
+    _score=score;
+
     player = new Player(sf::Vector2f(210,390));
     BaseScene::add(player);
     ball = new Ball();
     BaseScene::add(ball);
-
 
     n=0;
     for(int i=1;i<=5;i++){
@@ -36,7 +39,7 @@ void PlayScene2::init(){//inicializacion
     limit= new LimiteGameOver();
     BaseScene::add(limit);
 
-    texBackground.loadFromFile("assets/images/bckground.png");
+    texBackground.loadFromFile("assets/images/level_2.png");
     spBackground.setTexture(texBackground);
 
     font.loadFromFile("assets/fonts/font.ttf");
@@ -58,24 +61,29 @@ void PlayScene2::init(){//inicializacion
     txt.setScale(0.5,0.5);
 
     ///Musica
-    music.openFromFile("assets/music/level_2.ogg");
+   /* music.openFromFile("assets/music/level_2.ogg");
     music.setLoop(true);
-    music.play();
+    music.setVolume(5.f);
+    music.play();*/
 
 
 }
 void PlayScene2::aumentarScore()
 {
-    score +=1;
-    txt.setString("Score "+ to_string(score));
+    _score +=1;
+    txt.setString("Score "+ to_string(_score));
 }
 
 void PlayScene2::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
         if(pause == true){
             pause = false;
+            music.play();
         }
-        else{pause = true;}
+
+        else{pause = true;
+        music.stop();
+        }
         }
 
 
@@ -87,7 +95,7 @@ void PlayScene2::update(){
         music.stop();
         Game::getInstance().switchScene(new EndGame());
     }
-    if(score==90){
+    if(contadorEnemigos==0){
         music.stop();
         Game::getInstance().switchScene(new EndGame());
     }
@@ -130,6 +138,7 @@ void PlayScene2::colisiones_enemy(){
         if(enemy[i]->isCollision(*ball)){
         if(enemy[i]->getVidas()==1){
             enemy[i]->disapear();
+            contadorEnemigos--;
             ball->dirChangeE();
             aumentarScore();
         }

@@ -57,9 +57,10 @@ void PlayScene::init(){//inicializacion
     txt.setScale(0.5,0.5);
 
     ///Musica
-    music.openFromFile("assets/music/level_1.ogg");
+    /*music.openFromFile("assets/music/level_1.ogg");
     music.setLoop(true);
-    music.play();
+    music.setVolume(5.f);
+    music.play();*/
 
 
 }
@@ -73,8 +74,9 @@ void PlayScene::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
         if(pause == true){
             pause = false;
+            music.play();
         }
-        else{pause = true;}
+        else{pause = true; music.stop();}
         }
 
 
@@ -84,11 +86,12 @@ void PlayScene::update(){
     colisiones_enemy();
     if(vidas==0){
         music.stop();
+    GlobalScore::setLastScore(score);
        Game::getInstance().switchScene(new EndGame());
     }
-    if(score==30){
+    if(contadorEnemigos==30){
         music.stop();
-        Game::getInstance().switchScene(new MenuNextLevel());
+        Game::getInstance().switchScene(new MenuNextLevel(score));
     }
     vida.setString("vidas " + to_string(vidas));
 }
@@ -128,6 +131,7 @@ void PlayScene::colisiones_enemy(){
    for(int i=0;i<n;i++){
         if(enemy[i]->isCollision(*ball)){
         enemy[i]->disapear();
+        contadorEnemigos++;
         ball->dirChangeE();
         aumentarScore();
     }

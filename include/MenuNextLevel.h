@@ -12,6 +12,7 @@ using namespace std;
 
 class MenuNextLevel: public BaseScene{
     private:
+        int _score;
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
         sf::Texture texAstronaut;
@@ -27,7 +28,7 @@ class MenuNextLevel: public BaseScene{
         sf::Music music;
 
     public:
-        MenuNextLevel();
+        MenuNextLevel(int score);
         void update();
         void draw(sf::RenderWindow &w);
 };

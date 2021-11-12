@@ -15,8 +15,8 @@ class GlobalScore
        int getLastScore();
 
     private:
-        int highScore;
-        int lastScore;
+        int highScore=0;
+        int lastScore=0;
 };
 
 #endif // GLOBALSCORE_H

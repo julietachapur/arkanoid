@@ -12,6 +12,7 @@
 #include "Enemy.h"
 #include "LimiteGameOver.h"
 #include "EndGame.h"
+#include "GlobalScore.h"
 #include <vector>
 #include <string>
 #include <iostream>
@@ -19,15 +20,12 @@
 
 using namespace std;
 
-class PlayScene: public BaseScene{
+class PlayScene: public BaseScene, public GlobalScore{
     private:
         sf::RenderWindow w; //sfml
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
         sf::Music music;
-        /*Enemy *enemy;
-        Enemy *enemy_2;
-        Enemy *enemy_3;*/
         int vidas = 3;
         int score = 0;
         sf::Text txt;
@@ -38,8 +36,8 @@ class PlayScene: public BaseScene{
         Enemy *enemy[1000];
         LimiteGameOver *limit;
 
-
         int n=0;
+        int contadorEnemigos=0;
 
         void init();
         void colisiones_ball();
@@ -48,8 +46,6 @@ class PlayScene: public BaseScene{
         void aumentarScore();
 
     public:
-
-
         PlayScene();
         bool pause = false;
 
