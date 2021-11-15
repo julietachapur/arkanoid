@@ -11,14 +11,15 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene2::PlayScene2(int score)
+PlayScene2::PlayScene2(int score, int vidas)
 {
     s=score;
-    init(s);
+    int v=vidas;
+    init(s,v);
 }
 
-void PlayScene2::init(int score){//inicializacion
-    vidas=3;
+void PlayScene2::init(int score, int vidas){//inicializacion
+    _vidas=vidas;
     contadorEnemigos=30;
     _score=score;
 
@@ -74,6 +75,12 @@ void PlayScene2::aumentarScore()
     txt.setString("Score "+ to_string(_score));
 }
 
+void PlayScene2::scoreCero()
+{
+    _score=0;
+    txt.setString("Score "+ to_string(_score));
+}
+
 void PlayScene2::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
         if(pause == true){
@@ -91,15 +98,19 @@ void PlayScene2::update(){
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
-    if(vidas==0){
+    if(_vidas==0){
         music.stop();
+        sc.setLastScore(score);
+        sc.grabarEnDisco();
         Game::getInstance().switchScene(new EndGame());
     }
     if(contadorEnemigos==0){
+        sc.setLastScore(score);
+        sc.grabarEnDisco();
         music.stop();
         Game::getInstance().switchScene(new EndGame());
     }
-    vida.setString("vidas " + to_string(vidas));
+    vida.setString("vidas " + to_string(_vidas));
 }
 
 void PlayScene2::draw(sf::RenderWindow &w)
@@ -120,7 +131,10 @@ void PlayScene2::colisiones_ball(){
 
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
-            vidas--;
+            _vidas--;
+            if(_vidas>1){
+            scoreCero();
+            }
             ball->reset();
         }
     }

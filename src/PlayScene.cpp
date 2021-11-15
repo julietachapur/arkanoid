@@ -69,6 +69,12 @@ void PlayScene::aumentarScore()
     score +=1;
     txt.setString("Score "+ to_string(score));
 }
+void PlayScene::scoreCero()
+{
+    score=0;
+    txt.setString("Score "+ to_string(score));
+}
+
 
 void PlayScene::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
@@ -86,12 +92,13 @@ void PlayScene::update(){
     colisiones_enemy();
     if(vidas==0){
         music.stop();
-    GlobalScore::setLastScore(score);
+    sc.setLastScore(score);
+    sc.grabarEnDisco();
        Game::getInstance().switchScene(new EndGame());
     }
     if(contadorEnemigos==30){
         music.stop();
-        Game::getInstance().switchScene(new MenuNextLevel(score));
+        Game::getInstance().switchScene(new MenuNextLevel(score, vidas));
     }
     vida.setString("vidas " + to_string(vidas));
 }
@@ -115,6 +122,9 @@ void PlayScene::colisiones_ball(){
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
+            if(vidas>1){
+            scoreCero();
+            }
             ball->reset();
         }
     }
