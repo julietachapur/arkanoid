@@ -11,17 +11,16 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene2::PlayScene2(int score)
+PlayScene2::PlayScene2(int score, int highScore)
 {
-    s=score;
-    init(s);
+    _score=score;
+    _highScore=highScore;
+    init();
 }
 
-void PlayScene2::init(int score){//inicializacion
+void PlayScene2::init(){//inicializacion
     vidas=3;
     contadorEnemigos=30;
-    _score=score;
-
     player = new Player(sf::Vector2f(210,390));
     BaseScene::add(player);
     ball = new Ball();
@@ -55,7 +54,7 @@ void PlayScene2::init(int score){//inicializacion
     ///Texto para score
 
     txt.setFont(font);
-    txt.setString("Score "+ to_string(score));
+    txt.setString("Score "+ to_string(_score));
     txt.setFillColor(sf::Color::White);
     txt.setPosition(30,420);
     txt.setScale(0.5,0.5);
@@ -72,6 +71,14 @@ void PlayScene2::aumentarScore()
 {
     _score +=1;
     txt.setString("Score "+ to_string(_score));
+}
+
+void PlayScene2::disminuirScore()
+{
+    if(_score > 0){
+        _score --;
+        txt.setString("Score "+ to_string(_score));
+    }
 }
 
 void PlayScene2::update(){
@@ -91,13 +98,9 @@ void PlayScene2::update(){
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
-    if(vidas==0){
+    if(vidas==0 || contadorEnemigos==0){
         music.stop();
-        Game::getInstance().switchScene(new EndGame());
-    }
-    if(contadorEnemigos==0){
-        music.stop();
-        Game::getInstance().switchScene(new EndGame());
+        Game::getInstance().switchScene(new EndGame(_score,_highScore));
     }
     vida.setString("vidas " + to_string(vidas));
 }
@@ -121,6 +124,7 @@ void PlayScene2::colisiones_ball(){
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
+            disminuirScore();
             ball->reset();
         }
     }

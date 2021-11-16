@@ -24,13 +24,9 @@ class PlayScene2: public BaseScene, public GlobalScore{
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
         sf::Music music;
-        /*Enemy *enemy;
-        Enemy *enemy_2;
-        Enemy *enemy_3;*/
-
         int vidas = 3;
         int _score=0;
-        int s=0;
+        int _highScore;
         int score;
         sf::Text txt;
         sf::Text vida;
@@ -44,16 +40,17 @@ class PlayScene2: public BaseScene, public GlobalScore{
         int n=0;
         int contadorEnemigos;
 
-        void init(int score);
+        void init();
         void colisiones_ball();
         void colisiones_enemy();
         void colisiones_limit();
         void aumentarScore();
+        void disminuirScore();
 
     public:
 
 
-        PlayScene2(int score);
+        PlayScene2(int score, int highScore);
         bool pause = false;
 
         void update();

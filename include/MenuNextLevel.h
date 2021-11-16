@@ -13,6 +13,7 @@ using namespace std;
 class MenuNextLevel: public BaseScene{
     private:
         int _score;
+        int _highScore;
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
         sf::Texture texAstronaut;
@@ -24,11 +25,12 @@ class MenuNextLevel: public BaseScene{
         sf::Text playText;
         sf::Text highScoreText;
         sf::Text highScoreValue;
+        sf::Text txt;
         sf::Text exitText;
         sf::Music music;
 
     public:
-        MenuNextLevel(int score);
+        MenuNextLevel(int score,int highScore);
         void update();
         void draw(sf::RenderWindow &w);
 };

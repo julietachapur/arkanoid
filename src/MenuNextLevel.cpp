@@ -8,8 +8,9 @@
 #include "PlayScene.h"
 
 using namespace std;
-MenuNextLevel::MenuNextLevel(int score){
+MenuNextLevel::MenuNextLevel(int score, int highScore){
     _score=score;
+    _highScore=highScore;
 
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/menu.png");
@@ -39,6 +40,14 @@ MenuNextLevel::MenuNextLevel(int score){
     titleText.setCharacterSize(35);
     titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 200));
 
+    //SCORE
+    txt.setFont(textFont);
+    txt.setString("Score: "+ to_string(score));
+    txt.setFillColor(sf::Color::Black);
+    txt.setCharacterSize(30);
+    txt.setPosition(sf::Vector2f((400-txt.getGlobalBounds().width)/2.0, 250));
+
+
     // PLAY
     playText.setFont(textFont);
     playText.setColor(sf::Color::Cyan);
@@ -63,7 +72,7 @@ void MenuNextLevel::update(){
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
         music.stop();
-        Game::getInstance().switchScene(new PlayScene2(_score));
+        Game::getInstance().switchScene(new PlayScene2(_score,_highScore));
     }
 }
 
@@ -74,6 +83,7 @@ void MenuNextLevel::draw(sf::RenderWindow &w){
     w.draw(spAstronaut);
     w.draw(titleText);
     w.draw(playText);
+    w.draw(txt);
     /*if (Global::getHighScore!= 0) {
         w.draw(highScoreText);
         w.draw(highScoreValue);

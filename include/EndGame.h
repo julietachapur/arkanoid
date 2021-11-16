@@ -10,6 +10,8 @@ using namespace std;
 
 class EndGame: public BaseScene{
     private:
+        sf::Texture texHighScore;
+        sf::Sprite spHighScore;
         sf::Texture texBackground;//fondo
         sf::Sprite spBackground;
         sf::Texture texAstronaut;//fondo
@@ -19,10 +21,12 @@ class EndGame: public BaseScene{
         sf::Font textFont;
         sf::Text titleText;
         sf::Text exit;
-
+        sf::Text txt;
+        int _highScore;
+        int _score;
 
     public:
-        EndGame();
+        EndGame(int score, int highScore);
         void update();
         void draw(sf::RenderWindow &w);
 };

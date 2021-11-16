@@ -3,7 +3,9 @@
 #include "Game.h"
 #include "PlayScene.h"
 
-EndGame::EndGame(){
+EndGame::EndGame(int score, int highScore){
+    _highScore = highScore;
+    _score = score;
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/gameover.png");
     spBackground.setTexture(texBackground);
@@ -26,6 +28,21 @@ EndGame::EndGame(){
     titleText.setCharacterSize(48);
     titleText.setPosition(sf::Vector2f((400-titleText.getGlobalBounds().width)/2.0, 50));
 
+    //SCORE
+    txt.setFont(textFont);
+    txt.setString("Score: "+ to_string(score));
+    txt.setFillColor(sf::Color::Blue);
+    txt.setCharacterSize(35);
+    txt.setPosition(sf::Vector2f((400-txt.getGlobalBounds().width)/2.0, 425));
+
+    if(_score > _highScore){
+        _highScore = _score;
+        texHighScore.loadFromFile("assets/images/highscore.png");
+        spHighScore.setTexture(texHighScore);
+        spHighScore.setPosition(115,300);
+        spHighScore.setScale(0.35, 0.35);
+    }
+
     // BACK TO MENU
     exit.setFont(textFont);
     exit.setColor(sf::Color::Yellow);
@@ -43,7 +60,7 @@ void EndGame::update(){
 
     // Replay button
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
-        Game::getInstance().switchScene(new PlayScene());
+        Game::getInstance().switchScene(new PlayScene(_highScore));
     }
 }
 
@@ -51,5 +68,7 @@ void EndGame::draw(sf::RenderWindow &w){
     w.draw(spBackground);
     w.draw(spAstronaut);
     w.draw(titleText);
+    w.draw(spHighScore);
+    w.draw(txt);
     w.draw(exit);
 }

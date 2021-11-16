@@ -25,12 +25,10 @@ class Menu: public BaseScene{
         sf::Text highScoreValue;
         sf::Text exitText;
         sf::Music music;
-
-
+        int _highScore;
 
     public:
-        Menu();
-
+        Menu(int highScore);
         void update();
         void draw(sf::RenderWindow &w);
 };

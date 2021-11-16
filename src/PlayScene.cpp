@@ -10,8 +10,9 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene::PlayScene()
+PlayScene::PlayScene(int highScore)
 {
+    _highScore=highScore;
     init();
 }
 
@@ -70,6 +71,14 @@ void PlayScene::aumentarScore()
     txt.setString("Score "+ to_string(score));
 }
 
+void PlayScene::disminuirScore()
+{
+    if(score>0){
+        score --;
+        txt.setString("Score "+ to_string(score));
+    }
+}
+
 void PlayScene::update(){
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::P)){
         if(pause == true){
@@ -78,20 +87,17 @@ void PlayScene::update(){
         }
         else{pause = true; music.stop();}
         }
-
-
-
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
     if(vidas==0){
         music.stop();
-    GlobalScore::setLastScore(score);
-       Game::getInstance().switchScene(new EndGame());
+        //GlobalScore::setLastScore(score);
+        Game::getInstance().switchScene(new EndGame(score,_highScore));
     }
     if(contadorEnemigos==30){
         music.stop();
-        Game::getInstance().switchScene(new MenuNextLevel(score));
+        Game::getInstance().switchScene(new MenuNextLevel(score,_highScore));
     }
     vida.setString("vidas " + to_string(vidas));
 }
@@ -115,6 +121,7 @@ void PlayScene::colisiones_ball(){
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
+            disminuirScore();
             ball->reset();
         }
     }

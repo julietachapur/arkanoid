@@ -8,7 +8,8 @@
 #include "PlayScene.h"
 
 using namespace std;
-Menu::Menu(){
+Menu::Menu(int highScore){
+    _highScore = highScore;
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/menu.png");
     spBackground.setTexture(texBackground);
@@ -61,7 +62,7 @@ void Menu::update(){
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
         music.stop();
-        Game::getInstance().switchScene(new PlayScene());
+        Game::getInstance().switchScene(new PlayScene(_highScore));
     }
 }
 

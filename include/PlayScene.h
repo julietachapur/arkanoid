@@ -20,7 +20,7 @@
 
 using namespace std;
 
-class PlayScene: public BaseScene, public GlobalScore{
+class PlayScene: public BaseScene{
     private:
         sf::RenderWindow w; //sfml
         sf::Texture texBackground;//fondo
@@ -28,6 +28,7 @@ class PlayScene: public BaseScene, public GlobalScore{
         sf::Music music;
         int vidas = 3;
         int score = 0;
+        int highScore;
         sf::Text txt;
         sf::Text vida;
         sf::Font font;
@@ -38,15 +39,16 @@ class PlayScene: public BaseScene, public GlobalScore{
 
         int n=0;
         int contadorEnemigos=0;
-
+        int _highScore;
         void init();
         void colisiones_ball();
         void colisiones_enemy();
         void colisiones_limit();
         void aumentarScore();
+        void disminuirScore();
 
     public:
-        PlayScene();
+        PlayScene(int highScore);
         bool pause = false;
 
         void update();
