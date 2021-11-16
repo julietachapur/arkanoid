@@ -37,18 +37,32 @@ class PlayScene: public BaseScene{
         Enemy *enemy[1000];
         LimiteGameOver *limit;
 
+        GlobalScore sc;
+
         int n=0;
         int contadorEnemigos=0;
+<<<<<<< HEAD
         int _highScore;
+=======
+
+
+
+    public:
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
         void init();
         void colisiones_ball();
         void colisiones_enemy();
         void colisiones_limit();
         void aumentarScore();
+<<<<<<< HEAD
         void disminuirScore();
 
     public:
         PlayScene(int highScore);
+=======
+        void scoreCero();
+        PlayScene();
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
         bool pause = false;
 
         void update();

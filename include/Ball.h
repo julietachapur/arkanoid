@@ -28,7 +28,5 @@ class Ball: public Object ,public Collisionable{
     private:
         sf::CircleShape spBall;
         int toques=0;
-        //sf::Texture texBall;
-
 };
 #endif // BALL_H

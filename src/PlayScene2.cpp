@@ -11,6 +11,7 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
+<<<<<<< HEAD
 PlayScene2::PlayScene2(int score, int highScore)
 {
     _score=score;
@@ -20,6 +21,17 @@ PlayScene2::PlayScene2(int score, int highScore)
 
 void PlayScene2::init(){//inicializacion
     vidas=3;
+=======
+PlayScene2::PlayScene2(int score, int vidas)
+{
+    s=score;
+    int v=vidas;
+    init(s,v);
+}
+
+void PlayScene2::init(int score, int vidas){//inicializacion
+    _vidas=vidas;
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     contadorEnemigos=30;
     player = new Player(sf::Vector2f(210,390));
     BaseScene::add(player);
@@ -73,12 +85,19 @@ void PlayScene2::aumentarScore()
     txt.setString("Score "+ to_string(_score));
 }
 
+<<<<<<< HEAD
 void PlayScene2::disminuirScore()
 {
     if(_score > 0){
         _score --;
         txt.setString("Score "+ to_string(_score));
     }
+=======
+void PlayScene2::scoreCero()
+{
+    _score=0;
+    txt.setString("Score "+ to_string(_score));
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
 }
 
 void PlayScene2::update(){
@@ -98,11 +117,23 @@ void PlayScene2::update(){
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
+<<<<<<< HEAD
     if(vidas==0 || contadorEnemigos==0){
+=======
+    if(_vidas==0){
+        music.stop();
+        sc.setLastScore(score);
+        sc.grabarEnDisco();
+        Game::getInstance().switchScene(new EndGame());
+    }
+    if(contadorEnemigos==0){
+        sc.setLastScore(score);
+        sc.grabarEnDisco();
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
         music.stop();
         Game::getInstance().switchScene(new EndGame(_score,_highScore));
     }
-    vida.setString("vidas " + to_string(vidas));
+    vida.setString("vidas " + to_string(_vidas));
 }
 
 void PlayScene2::draw(sf::RenderWindow &w)
@@ -123,8 +154,15 @@ void PlayScene2::colisiones_ball(){
 
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
+<<<<<<< HEAD
             vidas--;
             disminuirScore();
+=======
+            _vidas--;
+            if(_vidas>1){
+            scoreCero();
+            }
+>>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
             ball->reset();
         }
     }

@@ -1,8 +1,6 @@
 #include "Ball.h"
 #include <SFML/Graphics/Texture.hpp>
 Ball::Ball(){
-    //texBall.loadFromFile("assets/images/meteor.png");
-    //spBall.setTexture(texBall);
     spBall.setRadius(20.0f);
     spBall.scale(0.2,0.2);
     spBall.setOrigin(2,2);

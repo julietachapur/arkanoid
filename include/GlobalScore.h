@@ -14,6 +14,9 @@ class GlobalScore
        int getHighScore();
        int getLastScore();
 
+       bool grabarEnDisco();
+       bool leerDeDisco(int);
+
     private:
         int highScore=0;
         int lastScore=0;
