@@ -30,28 +30,3 @@ highScore=n;
 void GlobalScore::setLastScore(int n){
 lastScore=n;
 }
-
-bool GlobalScore::grabarEnDisco(){
-    FILE *p;
-    p=fopen("score.dat","ab");
-    if(p==NULL){
-        return -1;
-    }
-
-    bool x=fwrite(this, sizeof(GlobalScore),1,p);
-    fclose(p);
-    return x;
-}
-
-bool GlobalScore::leerDeDisco(int pos){
-    FILE *p;
-    p=fopen("score.dat","rb");
-    if(p==NULL){
-        return -1;
-    }
-
-    fseek(p,sizeof(GlobalScore)*pos,0);
-    bool x=fread(this,sizeof(GlobalScore),1,p);
-    fclose(p);
-    return x;
-}

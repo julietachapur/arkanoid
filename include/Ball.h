@@ -21,12 +21,14 @@ class Ball: public Object ,public Collisionable{
         sf::FloatRect getBounds() const;
         sf::CircleShape &getSprite();
         void dirChange();
-        void dirChangeE();
+        void dirChangeX();
         void reset();
         sf::Vector2f getPos();
 
     private:
         sf::CircleShape spBall;
         int toques=0;
+        //sf::Texture texBall;
+
 };
 #endif // BALL_H

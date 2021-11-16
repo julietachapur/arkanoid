@@ -8,16 +8,11 @@
 #include "PlayScene.h"
 
 using namespace std;
-<<<<<<< HEAD
+
 MenuNextLevel::MenuNextLevel(int score, int highScore){
     _score=score;
     _highScore=highScore;
 
-=======
-MenuNextLevel::MenuNextLevel(int score, int vidas){
-    _score=score;
-    _vidas=vidas;
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/menu.png");
     spBackground.setTexture(texBackground);
@@ -78,11 +73,8 @@ void MenuNextLevel::update(){
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
         music.stop();
-<<<<<<< HEAD
+
         Game::getInstance().switchScene(new PlayScene2(_score,_highScore));
-=======
-        Game::getInstance().switchScene(new PlayScene2(_score, _vidas));
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     }
 }
 

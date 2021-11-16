@@ -2,27 +2,10 @@
 #include <iostream>
 #include "Game.h"
 #include "PlayScene.h"
-
-<<<<<<< HEAD
 EndGame::EndGame(int score, int highScore){
     _highScore = highScore;
     _score = score;
-=======
-int EndGame::mayor(){
-int aux=0;
-int pos=0;
-while(sc.leerDeDisco(pos)){
-    if(sc.getLastScore()>aux){
-        aux=sc.getLastScore();
-    }
-    pos++;
-}
-return aux;
-}
-EndGame::EndGame(){
 
-    _highScore=mayor();
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/gameover.png");
     spBackground.setTexture(texBackground);
@@ -67,22 +50,6 @@ EndGame::EndGame(){
     exit.setCharacterSize(10);
     exit.setPosition(250, 480);
 
-
-    //HighScore
-    high.setFont(textFont);
-    high.setColor(sf::Color::Magenta);
-    high.setString("Highscore");
-    high.setCharacterSize(29);
-    high.setPosition(sf::Vector2f((400-high.getGlobalBounds().width)/2.0, 230));
-
-    //highScore Value
-
-    highValue.setFont(textFont);
-    highValue.setColor(sf::Color::Magenta);
-    highValue.setString(to_string(_highScore));
-    highValue.setCharacterSize(29);
-    highValue.setPosition(sf::Vector2f((400-high.getGlobalBounds().width)/2.0, 280));
-
     //MUSIC
     music.openFromFile("assets/music/menu.ogg");
     music.setLoop(true);
@@ -93,20 +60,14 @@ void EndGame::update(){
 
     // Replay button
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
-<<<<<<< HEAD
         Game::getInstance().switchScene(new PlayScene(_highScore));
-=======
         music.stop();
-        Game::getInstance().switchScene(new PlayScene());
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     }
 }
 
 void EndGame::draw(sf::RenderWindow &w){
     w.draw(spBackground);
     w.draw(spAstronaut);
-    w.draw(high);
-    w.draw(highValue);
     w.draw(titleText);
     w.draw(spHighScore);
     w.draw(txt);

@@ -70,12 +70,6 @@ void PlayScene::aumentarScore()
     score +=1;
     txt.setString("Score "+ to_string(score));
 }
-void PlayScene::scoreCero()
-{
-    score=0;
-    txt.setString("Score "+ to_string(score));
-}
-
 
 void PlayScene::disminuirScore()
 {
@@ -95,25 +89,15 @@ void PlayScene::update(){
         }
     if(!pause) BaseScene::update();
     colisiones_ball();
-    colisiones_enemy();
+    //colisiones_enemy();
     if(vidas==0){
-        music.stop();
-<<<<<<< HEAD
+
         //GlobalScore::setLastScore(score);
         Game::getInstance().switchScene(new EndGame(score,_highScore));
     }
     if(contadorEnemigos==30){
         music.stop();
         Game::getInstance().switchScene(new MenuNextLevel(score,_highScore));
-=======
-    sc.setLastScore(score);
-    sc.grabarEnDisco();
-       Game::getInstance().switchScene(new EndGame());
-    }
-    if(contadorEnemigos==30){
-        music.stop();
-        Game::getInstance().switchScene(new MenuNextLevel(score, vidas));
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
     }
     vida.setString("vidas " + to_string(vidas));
 }
@@ -127,26 +111,47 @@ void PlayScene::draw(sf::RenderWindow &w)
 }
 
 void PlayScene::colisiones_ball(){
-   sf::Vector2f pos=ball->getVelocity();
+   ///sf::Vector2f pos=ball->getVelocity();
 
     if(ball->isCollision(*player)){
+        if(ball->getPos().x>player->getPos().x){
+            ball->moveBall(*player);
+            ball->dirChangeX();
+        }
+
+        else{
         ball->moveBall(*player);
         ball->dirChange();
+        }
+
     }
 
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
             vidas--;
-<<<<<<< HEAD
             disminuirScore();
-=======
-            if(vidas>1){
-            scoreCero();
-            }
->>>>>>> d9849e24ce24f97f2c5aa6c548bb178c90619b18
             ball->reset();
         }
     }
+
+       for(int i=0;i<n;i++){
+        if(enemy[i]->isCollision(*ball)){
+            if(ball->getPos().y==enemy[i]->getPosition().y){
+            if(ball->getPos().x<enemy[i]->getPosition().x){
+                enemy[i]->disapear();
+                contadorEnemigos++;
+                ball->dirChangeX();
+                aumentarScore();
+            }
+            }
+            else{
+        enemy[i]->disapear();
+        contadorEnemigos++;
+        ball->dirChange();
+        aumentarScore();
+        }
+    }
+   }
 }
 
 void PlayScene::colisiones_limit(){
@@ -155,16 +160,9 @@ if(limit->isCollision(*ball)){
 }
 }
 
-void PlayScene::colisiones_enemy(){
-
-   for(int i=0;i<n;i++){
-        if(enemy[i]->isCollision(*ball)){
-        enemy[i]->disapear();
-        contadorEnemigos++;
-        ball->dirChangeE();
-        aumentarScore();
-    }
-   }
-
-
-}
+//void PlayScene::colisiones_enemy(){
+//    sf::Vector2f pos=ball->getVelocity();
+////
+////
+////
+////}

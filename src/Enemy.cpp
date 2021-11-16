@@ -5,7 +5,7 @@
 Enemy::Enemy(int x, int y, int vidas){
 
 _vidas=vidas;
-txtEnemy.loadFromFile("assets/images/brianemigo.png");
+txtEnemy.loadFromFile("assets/images/bloquenemigo2.png");
 spEnemy.setTexture(txtEnemy);
 spEnemy.setPosition(x*60,y*30);
 spEnemy.setScale(0.2,0.2);
@@ -39,7 +39,7 @@ spEnemy.setPosition(-100,0);
 
 
 void Enemy::changeColour(){
-txtEnemy.loadFromFile("assets/images/anenemigo.png");
+txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
 spEnemy.setTexture(txtEnemy);
 }
 
@@ -49,6 +49,10 @@ return _vidas;
 
 void Enemy::disminuir(){
 _vidas--;
+}
+
+sf::Vector2f Enemy::getPosition(){
+return spEnemy.getPosition();
 }
 
 //Enemy::~Enemy(){

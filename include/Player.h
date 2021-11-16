@@ -19,6 +19,7 @@ class Player:public Object ,public Collisionable{
          sf::Vector2f getPos();
 
 
+
     private:
         float playerVelocity = 5;
         sf::Sprite spPlayer;

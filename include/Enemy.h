@@ -24,6 +24,7 @@ public:
 
         int getVidas();
         void disminuir();
+        sf::Vector2f getPosition();
 private:
         sf::Sprite spEnemy;
         sf::Texture txtEnemy;
