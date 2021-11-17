@@ -6175,7 +6175,7 @@
 	"Player.h"
 	"Collisionable.h"
 
-1637102999 c:\users\lucas\documents\github\arkanoid\include\ball.h
+1637114480 c:\users\lucas\documents\github\arkanoid\include\ball.h
 	<SFML/Graphics/RenderWindow.hpp>
 	<SFML/Graphics/Sprite.hpp>
 	<SFML/Graphics/Texture.hpp>
@@ -6185,7 +6185,7 @@
 	"Ball.h"
 	"Collisionable.h"
 
-1637103189 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
+1637114480 source:c:\users\lucas\documents\github\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
@@ -6206,7 +6206,7 @@
 	"Player.h"
 	<SFML/Window/Keyboard.hpp>
 
-1637103960 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
+1637114498 source:c:\users\lucas\documents\github\arkanoid\src\playscene.cpp
 	"../include/PlayScene.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
@@ -6237,7 +6237,7 @@
 	"Object.h"
 	"Collisionable.h"
 
-1637103701 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
+1637114200 source:c:\users\lucas\documents\github\arkanoid\src\enemy.cpp
 	"Enemy.h"
 	<SFML/Window/Keyboard.hpp>
 	<cstdlib>

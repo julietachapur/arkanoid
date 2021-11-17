@@ -58,6 +58,10 @@ void Ball::moveBall(const Collisionable& p){
 
 }
 
+void Ball::onlyChangeX(){
+velBall.x*=-1;
+}
+
 void Ball::dirChange(){
 velBall.y*=-1;
 }

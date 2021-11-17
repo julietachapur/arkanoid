@@ -5,7 +5,7 @@
 Enemy::Enemy(int x, int y, int vidas){
 
 _vidas=vidas;
-txtEnemy.loadFromFile("assets/images/bloquenemigo2.png");
+txtEnemy.loadFromFile("assets/images/brianemigo.png");
 spEnemy.setTexture(txtEnemy);
 spEnemy.setPosition(x*60,y*30);
 spEnemy.setScale(0.2,0.2);
@@ -39,7 +39,7 @@ spEnemy.setPosition(-100,0);
 
 
 void Enemy::changeColour(){
-txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
+txtEnemy.loadFromFile("assets/images/anenemigo.png");
 spEnemy.setTexture(txtEnemy);
 }
 

@@ -22,6 +22,7 @@ class Ball: public Object ,public Collisionable{
         sf::CircleShape &getSprite();
         void dirChange();
         void dirChangeX();
+        void onlyChangeX();
         void reset();
         sf::Vector2f getPos();
 

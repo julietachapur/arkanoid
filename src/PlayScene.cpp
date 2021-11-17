@@ -119,7 +119,7 @@ void PlayScene::colisiones_ball(){
             ball->dirChangeX();
         }
 
-        else{
+       else{
         ball->moveBall(*player);
         ball->dirChange();
         }
@@ -136,11 +136,11 @@ void PlayScene::colisiones_ball(){
 
        for(int i=0;i<n;i++){
         if(enemy[i]->isCollision(*ball)){
-            if(ball->getPos().y==enemy[i]->getPosition().y){
+            if(ball->getPos().y>enemy[i]->getPosition().y){
             if(ball->getPos().x<enemy[i]->getPosition().x){
                 enemy[i]->disapear();
                 contadorEnemigos++;
-                ball->dirChangeX();
+                ball->onlyChangeX();;
                 aumentarScore();
             }
             }
