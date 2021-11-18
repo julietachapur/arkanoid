@@ -39,13 +39,9 @@ void Game::run(){
         while(w.pollEvent(e)){
             if(e.type == sf::Event::Closed)
                 w.close();//trabaja con una cola de eventos
-
         }
-
-
         update();
         draw();
-
 
         if(nextScene != nullptr){
             delete currentScene;

@@ -114,16 +114,8 @@ void PlayScene::colisiones_ball(){
    ///sf::Vector2f pos=ball->getVelocity();
 
     if(ball->isCollision(*player)){
-        if(ball->getPos().x>player->getPos().x){
-            ball->moveBall(*player);
-            ball->dirChangeX();
-        }
-
-       else{
         ball->moveBall(*player);
         ball->dirChange();
-        }
-
     }
 
     if(ball->isCollision(*limit)){
@@ -134,24 +126,17 @@ void PlayScene::colisiones_ball(){
         }
     }
 
-       for(int i=0;i<n;i++){
+   for(int i=0;i<n;i++){
         if(enemy[i]->isCollision(*ball)){
-            if(ball->getPos().y>enemy[i]->getPosition().y){
-            if(ball->getPos().x<enemy[i]->getPosition().x){
-                enemy[i]->disapear();
-                contadorEnemigos++;
-                ball->onlyChangeX();;
-                aumentarScore();
+            if(enemy[i]->isCollision(*ball)){
+            enemy[i]->disapear();
+            contadorEnemigos++;
+            ball->dirChange();
+            ball->onlyChangeX();
+            aumentarScore();
             }
-            }
-            else{
-        enemy[i]->disapear();
-        contadorEnemigos++;
-        ball->dirChange();
-        aumentarScore();
         }
     }
-   }
 }
 
 void PlayScene::colisiones_limit(){

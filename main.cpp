@@ -8,8 +8,7 @@
 int main ( int argc, char** argv ){
 
     int highScore=0;
-    int score =20;
-    BaseScene *scene = new EndGame(score,highScore);;
+    BaseScene *scene = new Menu(highScore);;
     Game &g = Game::create(sf::VideoMode(400, 500), scene, "ARKANOID");
     g.run();
 

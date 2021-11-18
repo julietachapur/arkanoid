@@ -1,8 +1,6 @@
 #include "Ball.h"
 #include <SFML/Graphics/Texture.hpp>
 Ball::Ball(){
-    //texBall.loadFromFile("assets/images/meteor.png");
-    //spBall.setTexture(texBall);
     spBall.setRadius(20.0f);
     spBall.scale(0.2,0.2);
     spBall.setOrigin(2,2);
@@ -59,7 +57,13 @@ void Ball::moveBall(const Collisionable& p){
 }
 
 void Ball::onlyChangeX(){
-velBall.x*=-1;
+    if((rand()%200)%2==0){
+        velBall.x*=-1;
+    }
+    else{
+        velBall.x*=1;
+    }
+
 }
 
 void Ball::dirChange(){
