@@ -7762,7 +7762,7 @@
 	"../include/Enemy.h"
 	"../include/LimiteGameOver.h"
 
-1637094522 source:c:\users\user\desktop\nueva carpeta\arkanoid\main.cpp
+1637196779 source:c:\users\user\desktop\nueva carpeta\arkanoid\main.cpp
 	<stdlib.h>
 	<time.h>
 	"BaseScene.h"
@@ -8392,11 +8392,11 @@
 
 1637191369 c:\users\user\desktop\nueva carpeta\arkanoid\include\globalscore.h
 
-1637196293 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\ball.cpp
+1637196779 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
-1637094522 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\basescene.cpp
+1637196779 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\basescene.cpp
 	"BaseScene.h"
 	<string>
 	<iostream>
@@ -8413,7 +8413,7 @@
 	<SFML/Window/Keyboard.hpp>
 	<cstdlib>
 
-1637094522 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\game.cpp
+1637196779 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\game.cpp
 	"Game.h"
 	<iostream>
 	<sstream>

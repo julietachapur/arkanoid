@@ -5,7 +5,7 @@
 Enemy::Enemy(int x, int y, int vidas){
 
 _vidas=vidas;
-txtEnemy.loadFromFile("assets/images/bloquenemigo.png");
+txtEnemy.loadFromFile("assets/images/brianamari.png");
 spEnemy.setTexture(txtEnemy);
 spEnemy.setPosition(x*60,y*30);
 spEnemy.setScale(0.2,0.2);
