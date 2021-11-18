@@ -9,9 +9,10 @@
 
 using namespace std;
 
-MenuNextLevel::MenuNextLevel(int score, int highScore){
+MenuNextLevel::MenuNextLevel(int score, int highScore, int vidas){
     _score=score;
     _highScore=highScore;
+    _vidas = vidas;
 
     // LOAD BACKGROUND IMAGE
     texBackground.loadFromFile("assets/images/menu.png");
@@ -73,13 +74,11 @@ void MenuNextLevel::update(){
 
     if(sf::Keyboard::isKeyPressed(sf::Keyboard::Tab)){
         music.stop();
-
-        Game::getInstance().switchScene(new PlayScene2(_score,_highScore));
+        Game::getInstance().switchScene(new PlayScene2(_score,_highScore,_vidas));
     }
 }
 
 void MenuNextLevel::draw(sf::RenderWindow &w){
-    //w.clear(sf::Color::Black); //limpia la pantalla
     w.draw(spBackground);
     w.draw(spSpace);
     w.draw(spAstronaut);

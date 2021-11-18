@@ -7,7 +7,6 @@ Ball::Ball(){
     srand(time(0)); //que se mueva random
     spBall.setPosition(rand()%200, 200);
 
-
     velBall.x = 1 +rand()%2;
     velBall.y = 1 + rand()%2;
 }

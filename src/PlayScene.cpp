@@ -89,15 +89,12 @@ void PlayScene::update(){
         }
     if(!pause) BaseScene::update();
     colisiones_ball();
-    //colisiones_enemy();
     if(vidas==0){
-
-        //GlobalScore::setLastScore(score);
         Game::getInstance().switchScene(new EndGame(score,_highScore));
     }
     if(contadorEnemigos==30){
         music.stop();
-        Game::getInstance().switchScene(new MenuNextLevel(score,_highScore));
+        Game::getInstance().switchScene(new MenuNextLevel(score,_highScore,vidas));
     }
     vida.setString("vidas " + to_string(vidas));
 }

@@ -1,5 +1,4 @@
 #include "PlayScene2.h"
-
 #include "Game.h"
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
@@ -11,15 +10,15 @@
 #include"../include/LimiteGameOver.h"
 using namespace std;
 
-PlayScene2::PlayScene2(int score, int highScore)
+PlayScene2::PlayScene2(int score, int highScore, int vidas)
 {
     _score=score;
     _highScore=highScore;
+    _vidas=vidas;
     init();
 }
 
 void PlayScene2::init(){//inicializacion
-    vidas=3;
     contadorEnemigos=30;
     player = new Player(sf::Vector2f(210,390));
     BaseScene::add(player);
@@ -46,7 +45,7 @@ void PlayScene2::init(){//inicializacion
     ///Texto para vidas
 
     vida.setFont(font);
-    vida.setString("Vidas "+ to_string(vidas));
+    vida.setString("Vidas "+ to_string(_vidas));
     vida.setFillColor(sf::Color::White);
     vida.setPosition(330,420);
     vida.setScale(0.5,0.5);
@@ -99,11 +98,11 @@ void PlayScene2::update(){
     if(!pause) BaseScene::update();
     colisiones_ball();
     colisiones_enemy();
-    if(vidas==0 || contadorEnemigos==0){
+    if(_vidas==0 || contadorEnemigos==0){
         music.stop();
         Game::getInstance().switchScene(new EndGame(_score,_highScore));
     }
-    vida.setString("vidas " + to_string(vidas));
+    vida.setString("vidas " + to_string(_vidas));
 }
 
 void PlayScene2::draw(sf::RenderWindow &w)
@@ -125,7 +124,7 @@ void PlayScene2::colisiones_ball(){
     if(ball->isCollision(*limit)){
         if(ball->velBall.y>0){
 
-            vidas--;
+            _vidas--;
             disminuirScore();
             ball->reset();
         }

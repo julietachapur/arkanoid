@@ -8344,7 +8344,7 @@
 	<iostream>
 	<sstream>
 
-1637191369 c:\users\user\desktop\nueva carpeta\arkanoid\include\menunextlevel.h
+1637269351 c:\users\user\desktop\nueva carpeta\arkanoid\include\menunextlevel.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	<vector>
@@ -8352,7 +8352,7 @@
 	"./Ball.h"
 	"./BaseScene.h"
 
-1637191369 c:\users\user\desktop\nueva carpeta\arkanoid\include\playscene2.h
+1637269385 c:\users\user\desktop\nueva carpeta\arkanoid\include\playscene2.h
 	<SFML/Graphics.hpp>
 	<SFML/Audio.hpp>
 	"Collisionable.h"
@@ -8363,7 +8363,6 @@
 	"Enemy.h"
 	"LimiteGameOver.h"
 	"EndGame.h"
-	"GlobalScore.h"
 	<vector>
 	<string>
 	<iostream>
@@ -8392,7 +8391,7 @@
 
 1637191369 c:\users\user\desktop\nueva carpeta\arkanoid\include\globalscore.h
 
-1637196779 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\ball.cpp
+1637269304 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\ball.cpp
 	"Ball.h"
 	<SFML/Graphics/Texture.hpp>
 
@@ -8408,7 +8407,7 @@
 	"Game.h"
 	"PlayScene.h"
 
-1637193423 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\enemy.cpp
+1637197270 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\enemy.cpp
 	"Enemy.h"
 	<SFML/Window/Keyboard.hpp>
 	<cstdlib>
@@ -8437,7 +8436,7 @@
 	"Game.h"
 	"PlayScene.h"
 
-1637191369 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\menunextlevel.cpp
+1637269360 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\menunextlevel.cpp
 	"MenuNextLevel.h"
 	<sstream>
 	<SFML/Graphics.hpp>
@@ -8451,7 +8450,7 @@
 	"Player.h"
 	<SFML/Window/Keyboard.hpp>
 
-1637196561 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\playscene.cpp
+1637269304 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\playscene.cpp
 	"../include/PlayScene.h"
 	"Game.h"
 	<SFML/Graphics.hpp>
@@ -8463,7 +8462,7 @@
 	"../include/Enemy.h"
 	"../include/LimiteGameOver.h"
 
-1637191369 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\playscene2.cpp
+1637269413 source:c:\users\user\desktop\nueva carpeta\arkanoid\src\playscene2.cpp
 	"PlayScene2.h"
 	"Game.h"
 	<SFML/Graphics.hpp>

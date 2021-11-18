@@ -79,7 +79,6 @@
 		<Unit filename="src/EndGame.cpp" />
 		<Unit filename="src/Enemy.cpp" />
 		<Unit filename="src/Game.cpp" />
-		<Unit filename="src/GlobalScore.cpp" />
 		<Unit filename="src/LimiteGameOver.cpp" />
 		<Unit filename="src/Menu.cpp" />
 		<Unit filename="src/MenuNextLevel.cpp" />
