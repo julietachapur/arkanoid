@@ -58,10 +58,10 @@ void PlayScene::init(){//inicializacion
     txt.setScale(0.5,0.5);
 
     ///Musica
-    /*music.openFromFile("assets/music/level_1.ogg");
+    music.openFromFile("assets/music/level_1.ogg");
     music.setLoop(true);
     music.setVolume(5.f);
-    music.play();*/
+    music.play();
 
 
 }
